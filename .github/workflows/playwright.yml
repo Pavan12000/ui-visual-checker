@@ -173,24 +173,31 @@ jobs:
           if [ "${{ job.status }}" != "success" ]; then
             STATUS="❌ Failed"
           fi
-
+      
           REPO_NAME="${{ github.repository }}"
           BRANCH="${{ github.ref_name }}"
           RUN_NUM="${{ github.run_number }}"
           DATE="${{ steps.vars.outputs.DATE }}"
-          
+      
           HYBRID_URL="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/${{ steps.vars.outputs.RUN_FOLDER }}/custom-reports/summary-${DATE}.html"
           PLAYWRIGHT_URL="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/${{ steps.vars.outputs.RUN_FOLDER }}/playwright-report/index.html"
           MAIN_URL="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/${{ steps.vars.outputs.RUN_FOLDER }}/"
-
+      
+          # FIX: Compute themeColor BEFORE JSON
+          if [ "${STATUS}" = "✅ Success" ]; then
+            THEME_COLOR="28a745"
+          else
+            THEME_COLOR="dc3545"
+          fi
+      
           curl -X POST "${{ secrets.TEAMS_WEBHOOK_URL }}" \
             -H "Content-Type: application/json" \
-            -d @- << EOF
+            -d @- <<EOF
           {
             "@type": "MessageCard",
             "@context": "https://schema.org/extensions",
             "summary": "UI Visual Check - Run #${RUN_NUM}",
-            "themeColor": "$( [ \"${STATUS}\" = \"✅ Success\" ] && echo \"28a745\" || echo \"dc3545\" )",
+            "themeColor": "${THEME_COLOR}",
             "title": "🎨 UI Visual Check - Run #${RUN_NUM}",
             "sections": [
               {
@@ -221,5 +228,6 @@ jobs:
             ]
           }
           EOF
+          
 
 
