@@ -1,16 +1,16 @@
 node_modules
-reports/html
+
+# Ignored locally but force-added by GitHub Actions
+# This keeps your local repo clean while CI tracks history
 screenshots/daily
 screenshots/diffs
+reports/
 
-# Playwright built-in reports (we use custom reports)
+# Playwright built-in reports
 playwright-report/
 test-results/
 
 # Dependency graph files
 graph.dot
 graph.mmd
-
-# All reports (regenerated daily)
-reports/
 
