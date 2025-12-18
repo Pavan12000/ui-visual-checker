@@ -1,0 +1,171 @@
+{
+  "url": "/draup/jobs",
+  "timestamp": "2025-12-18T07:01:37.579Z",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "elements": [
+    {
+      "selector": "nav",
+      "label": "Navigation",
+      "x": 0,
+      "y": 0,
+      "width": 1280,
+      "height": 52,
+      "visible": true,
+      "fontSize": "16px",
+      "color": "rgb(33, 37, 41)",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "zIndex": "1030"
+    },
+    {
+      "selector": "main",
+      "label": "Main Content",
+      "x": 0,
+      "y": 52,
+      "width": 1280,
+      "height": 656,
+      "visible": true,
+      "fontSize": "16px",
+      "color": "rgb(33, 37, 41)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "zIndex": "auto"
+    },
+    {
+      "selector": "h1",
+      "label": "Main Heading",
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0,
+      "visible": false
+    },
+    {
+      "selector": "h2",
+      "label": "Subheadings",
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0,
+      "visible": false
+    },
+    {
+      "selector": "button:visible",
+      "label": "Buttons",
+      "x": 583,
+      "y": 420,
+      "width": 115,
+      "height": 48,
+      "visible": true,
+      "fontSize": "16px",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgb(0, 116, 197)",
+      "zIndex": "auto"
+    },
+    {
+      "selector": "a:visible:nth(0)",
+      "label": "Links #1",
+      "x": 0,
+      "y": 0,
+      "width": 54,
+      "height": 52,
+      "visible": true,
+      "fontSize": "20px",
+      "color": "rgb(10, 88, 202)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "zIndex": "auto"
+    },
+    {
+      "selector": "a:visible:nth(1)",
+      "label": "Links #2",
+      "x": 54,
+      "y": 8,
+      "width": 137,
+      "height": 36,
+      "visible": true,
+      "fontSize": "14px",
+      "color": "rgb(0, 14, 25)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "zIndex": "auto"
+    },
+    {
+      "selector": "a:visible:nth(2)",
+      "label": "Links #3",
+      "x": 206,
+      "y": 11,
+      "width": 62,
+      "height": 32,
+      "visible": true,
+      "fontSize": "14px",
+      "color": "rgb(34, 46, 57)",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "zIndex": "auto"
+    },
+    {
+      "selector": "a:visible:nth(3)",
+      "label": "Links #4",
+      "x": 276,
+      "y": 11,
+      "width": 69,
+      "height": 32,
+      "visible": true,
+      "fontSize": "14px",
+      "color": "rgb(34, 46, 57)",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "zIndex": "auto"
+    },
+    {
+      "selector": "a:visible:nth(4)",
+      "label": "Links #5",
+      "x": 353,
+      "y": 11,
+      "width": 48,
+      "height": 32,
+      "visible": true,
+      "fontSize": "14px",
+      "color": "rgb(0, 116, 197)",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "zIndex": "auto"
+    },
+    {
+      "selector": "a:visible:nth(5)",
+      "label": "Links #6",
+      "x": 409,
+      "y": 11,
+      "width": 135,
+      "height": 32,
+      "visible": true,
+      "fontSize": "14px",
+      "color": "rgb(34, 46, 57)",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "zIndex": "auto"
+    },
+    {
+      "selector": "a:visible:nth(6)",
+      "label": "Links #7",
+      "x": 1240,
+      "y": 15,
+      "width": 24,
+      "height": 24,
+      "visible": true,
+      "fontSize": "14px",
+      "color": "rgba(0, 0, 0, 0)",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "zIndex": "auto"
+    },
+    {
+      "selector": "img:visible",
+      "label": "Images",
+      "x": 600,
+      "y": 212,
+      "width": 80,
+      "height": 80,
+      "visible": true,
+      "fontSize": "16px",
+      "color": "rgb(33, 37, 41)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "zIndex": "auto"
+    }
+  ]
+}
