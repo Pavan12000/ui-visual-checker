@@ -1,0 +1,16 @@
+node_modules
+reports/html
+screenshots/daily
+screenshots/diffs
+
+# Playwright built-in reports (we use custom reports)
+playwright-report/
+test-results/
+
+# Dependency graph files
+graph.dot
+graph.mmd
+
+# All reports (regenerated daily)
+reports/
+

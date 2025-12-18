@@ -1,0 +1,42 @@
+{
+  "Talent": [
+    "/draup/home",
+    "/draup/404",
+    "/draup/workforceplanning/talent",
+    "/draup/workforceplanning/demand",
+    "/draup/workforceplanning/ecosystem",
+    "/draup/workforceplanning/signals",
+    "/draup/stack-iq",
+    "/draup/universe",
+    "/draup/mypeers",
+    "/draup/mysignals",
+    "/draup/recruitment/recruit",
+    "/draup/projects",
+    "/draup/jobs",
+    "/draup/recruitment/talent",
+    "/draup/reskilling/reskillnavigator",
+    "/draup/reskilling/reskillsimulator",
+    "/draup/reskilling/employeereskilling",
+    "/draup/university",
+    "/draup/academia",
+    "/draup/braindesk",
+    "/draup/myreports",
+    "/draup/mainprojects"
+  ],
+  "Sales": [
+    "/draup/industrycurator",
+    "/draup/industry/deals",
+    "/draup/industry/demand",
+    "/draup/ecosystem",
+    "/draup/signalscast",
+    "/draup/stack-iq",
+    "/draup/universe",
+    "/draup/myaccounts",
+    "/draup/mysignals",
+    "/draup/buyers/search",
+    "/draup/projects",
+    "/draup/braindesk",
+    "/draup/myreports",
+    "/draup/mainprojects"
+  ]
+}
