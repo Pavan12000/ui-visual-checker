@@ -1,6 +1,6 @@
 {
   "url": "/draup/myaccounts",
-  "timestamp": "2025-12-18T07:02:34.356Z",
+  "timestamp": "2025-12-18T07:09:14.309Z",
   "viewport": {
     "width": 1280,
     "height": 720
@@ -49,6 +49,32 @@
       "width": 0,
       "height": 0,
       "visible": false
+    },
+    {
+      "selector": "button:visible:nth(0)",
+      "label": "Buttons #1",
+      "x": 56,
+      "y": 62,
+      "width": 245,
+      "height": 24,
+      "visible": true,
+      "fontSize": "14px",
+      "color": "rgb(34, 46, 57)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "zIndex": "auto"
+    },
+    {
+      "selector": "button:visible:nth(1)",
+      "label": "Buttons #2",
+      "x": 1197,
+      "y": 769,
+      "width": 48,
+      "height": 48,
+      "visible": true,
+      "fontSize": "16px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "zIndex": "auto"
     },
     {
       "selector": "a:visible:nth(0)",
@@ -126,6 +152,32 @@
       "fontSize": "14px",
       "color": "rgba(0, 0, 0, 0)",
       "backgroundColor": "rgb(255, 255, 255)",
+      "zIndex": "auto"
+    },
+    {
+      "selector": "a:visible:nth(6)",
+      "label": "Links #7",
+      "x": 8,
+      "y": 188,
+      "width": 232,
+      "height": 40,
+      "visible": true,
+      "fontSize": "16px",
+      "color": "rgb(16, 166, 234)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "zIndex": "auto"
+    },
+    {
+      "selector": "a:visible:nth(7)",
+      "label": "Links #8",
+      "x": 8,
+      "y": 272,
+      "width": 232,
+      "height": 40,
+      "visible": true,
+      "fontSize": "16px",
+      "color": "rgb(16, 166, 234)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
       "zIndex": "auto"
     }
   ]
