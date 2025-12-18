@@ -91,10 +91,25 @@ jobs:
           echo "RUN_FOLDER=$(date +'%Y-%m-%d')-Run-${{ github.run_number }}" >> $GITHUB_OUTPUT
 
       - name: Prepare combined reports for GitHub Pages
+        if: ${{ !cancelled() }}
         run: |
           mkdir -p gh-pages-deploy
-          cp -r reports gh-pages-deploy/custom-reports
-          cp -r playwright-report gh-pages-deploy/playwright-report
+          
+          if [ -d "reports" ]; then
+            cp -r reports gh-pages-deploy/custom-reports
+            echo "✅ Custom reports copied"
+          else
+            echo "⚠️ No custom reports folder found"
+            mkdir -p gh-pages-deploy/custom-reports
+          fi
+          
+          if [ -d "playwright-report" ]; then
+            cp -r playwright-report gh-pages-deploy/playwright-report
+            echo "✅ Playwright report copied"
+          else
+            echo "⚠️ No playwright-report folder found"
+            mkdir -p gh-pages-deploy/playwright-report
+          fi
           
           cat > gh-pages-deploy/index.html << 'EOF'
           <!DOCTYPE html>
@@ -133,60 +148,13 @@ jobs:
           </body>
           </html>
           EOF
-
-      - name: Publish reports to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          branch: gh-pages
-          folder: gh-pages-deploy
-          target-folder: ${{ steps.vars.outputs.RUN_FOLDER }}
-          clean: false
-          single-commit: true
-
-      - name: Create Historical Index
-        if: ${{ !cancelled() }}
-        run: |
-          git fetch origin gh-pages:gh-pages || true
-          git checkout gh-pages || git checkout --orphan gh-pages
           
-          cat > index.html << 'EOF'
-          <!DOCTYPE html>
-          <html>
-          <head>
-            <title>UI Visual Check - Historical Reports</title>
-            <style>
-              body { font-family: Arial, sans-serif; padding: 40px; background: #f5f5f5; }
-              .container { max-width: 1200px; margin: 0 auto; background: white; padding: 30px; border-radius: 8px; }
-              h1 { color: #333; }
-              .report-list { list-style: none; padding: 0; }
-              .report-item { margin: 15px 0; padding: 15px; background: #f9f9f9; border-radius: 6px; border-left: 4px solid #2196f3; }
-              .report-item a { color: #2196f3; text-decoration: none; font-weight: bold; font-size: 16px; }
-              .report-item a:hover { text-decoration: underline; }
-              .report-date { color: #666; font-size: 14px; margin-top: 5px; }
-            </style>
-          </head>
-          <body>
-            <div class="container">
-              <h1>🎨 UI Visual Check - Historical Reports</h1>
-              <p>Repository: ${{ github.repository }} • Branch: ${{ github.ref_name }}</p>
-              <ul class="report-list">
-          EOF
-          
-          for folder in $(ls -d */ 2>/dev/null | grep -E '^[0-9]{4}-[0-9]{2}-[0-9]{2}' | sort -r); do
-            folder_name=${folder%/}
-            echo "<li class=\"report-item\">" >> index.html
-            echo "  <a href=\"./${folder_name}/\">📊 ${folder_name}</a>" >> index.html
-            echo "  <div class=\"report-date\">View reports from this run</div>" >> index.html
-            echo "</li>" >> index.html
-          done
-          
-          echo "</ul></div></body></html>" >> index.html
-          
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add index.html
-          git commit -m "Update historical index" || true
-          git checkout ${{ github.ref_name }}
+          echo "📁 Deployment folder structure:"
+          ls -la gh-pages-deploy/
+          echo "📊 Custom reports:"
+          ls -la gh-pages-deploy/custom-reports/ || echo "Empty"
+          echo "🎭 Playwright report:"
+          ls -la gh-pages-deploy/playwright-report/ || echo "Empty"
 
       - name: Publish reports to GitHub Pages
         if: ${{ !cancelled() }}
