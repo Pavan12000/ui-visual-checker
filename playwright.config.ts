@@ -17,7 +17,7 @@ export default defineConfig({
   },
   reporter: [
     ['list', { printSteps: true }],
-    ['html', { open: 'never' }],
+    ['html', { open: 'never', outputFolder: 'playwright-report' }],
   ],
   use: {
     baseURL: env_url || 'https://platform.draup.com',
