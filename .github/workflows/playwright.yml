@@ -174,19 +174,52 @@ jobs:
             STATUS="❌ Failed"
           fi
 
-          HYBRID_REPORT_URL="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/${{ steps.vars.outputs.RUN_FOLDER }}/custom-reports/summary-${{ steps.vars.outputs.DATE }}.html"
-          PLAYWRIGHT_REPORT_URL="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/${{ steps.vars.outputs.RUN_FOLDER }}/playwright-report/index.html"
-          MAIN_REPORT_URL="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/${{ steps.vars.outputs.RUN_FOLDER }}/"
-          HISTORY_URL="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
+          REPO_NAME="${{ github.repository }}"
+          BRANCH="${{ github.ref_name }}"
+          RUN_NUM="${{ github.run_number }}"
+          DATE="${{ steps.vars.outputs.DATE }}"
+          
+          HYBRID_URL="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/${{ steps.vars.outputs.RUN_FOLDER }}/custom-reports/summary-${DATE}.html"
+          PLAYWRIGHT_URL="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/${{ steps.vars.outputs.RUN_FOLDER }}/playwright-report/index.html"
+          MAIN_URL="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/${{ steps.vars.outputs.RUN_FOLDER }}/"
 
-          MESSAGE=$(cat <<EOF
+          curl -X POST "${{ secrets.TEAMS_WEBHOOK_URL }}" \
+            -H "Content-Type: application/json" \
+            -d @- << EOF
           {
-            "text": "🔔 **UI Visual Check - Run #${{ github.run_number }}**\n\n**Status:** ${STATUS}\n**Repository:** ${{ github.repository }}\n**Branch:** ${{ github.ref_name }}\n\n📊 **Reports:**\n• [🎨 Hybrid Report](${HYBRID_REPORT_URL})\n• [🎭 Playwright Report](${PLAYWRIGHT_REPORT_URL})\n• [📂 All Reports](${MAIN_REPORT_URL})\n• [📜 History](${HISTORY_URL})"
+            "@type": "MessageCard",
+            "@context": "https://schema.org/extensions",
+            "summary": "UI Visual Check - Run #${RUN_NUM}",
+            "themeColor": "$( [ \"${STATUS}\" = \"✅ Success\" ] && echo \"28a745\" || echo \"dc3545\" )",
+            "title": "🎨 UI Visual Check - Run #${RUN_NUM}",
+            "sections": [
+              {
+                "facts": [
+                  { "name": "Status:", "value": "${STATUS}" },
+                  { "name": "Repository:", "value": "${REPO_NAME}" },
+                  { "name": "Branch:", "value": "${BRANCH}" },
+                  { "name": "Date:", "value": "${DATE}" }
+                ]
+              }
+            ],
+            "potentialAction": [
+              {
+                "@type": "OpenUri",
+                "name": "🎨 View Hybrid Report",
+                "targets": [{ "os": "default", "uri": "${HYBRID_URL}" }]
+              },
+              {
+                "@type": "OpenUri",
+                "name": "🎭 View Playwright Report",
+                "targets": [{ "os": "default", "uri": "${PLAYWRIGHT_URL}" }]
+              },
+              {
+                "@type": "OpenUri",
+                "name": "📂 All Reports",
+                "targets": [{ "os": "default", "uri": "${MAIN_URL}" }]
+              }
+            ]
           }
           EOF
-          )
-          
-          if [ -n "${{ secrets.TEAMS_WEBHOOK_URL }}" ]; then
-            curl -H "Content-Type: application/json" -d "$MESSAGE" "${{ secrets.TEAMS_WEBHOOK_URL }}"
-          fi
+
 
