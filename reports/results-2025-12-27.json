@@ -1,0 +1,3209 @@
+[
+  {
+    "url": "/draup/workforceplanning/ecosystem",
+    "viewName": "_draup_workforceplanning_ecosystem",
+    "product": "Talent",
+    "date": "2025-12-27",
+    "previousDate": "2025-12-23",
+    "status": "✅ OK",
+    "errors": [],
+    "previousPath": "screenshots/daily/2025-12-23/Talent/_draup_workforceplanning_ecosystem.png",
+    "todayPath": "screenshots/daily/2025-12-27/Talent/_draup_workforceplanning_ecosystem.png",
+    "todayLayoutPath": "screenshots/daily/2025-12-27/Talent/_draup_workforceplanning_ecosystem-layout.json",
+    "previousLayoutPath": "screenshots/daily/2025-12-23/Talent/_draup_workforceplanning_ecosystem-layout.json",
+    "diffPath": "screenshots/diffs/_draup_workforceplanning_ecosystem-diff.png",
+    "diffPixels": 4485,
+    "layoutChanges": {
+      "totalChanges": 0,
+      "changes": [],
+      "changesByType": {
+        "position": 0,
+        "size": 0,
+        "style": 0,
+        "missing": 0,
+        "new": 0,
+        "visibility": 0
+      },
+      "layoutScore": 100
+    },
+    "layoutOverlayPath": null,
+    "totalPixels": 921600,
+    "imageWidth": 1280,
+    "imageHeight": 720
+  },
+  {
+    "url": "/draup/home",
+    "viewName": "_draup_home",
+    "product": "Talent",
+    "date": "2025-12-27",
+    "previousDate": "2025-12-23",
+    "status": "❌ Error",
+    "errors": [],
+    "previousPath": "screenshots/daily/2025-12-23/Talent/_draup_home.png",
+    "todayPath": "screenshots/daily/2025-12-27/Talent/_draup_home.png",
+    "todayLayoutPath": "screenshots/daily/2025-12-27/Talent/_draup_home-layout.json",
+    "previousLayoutPath": "screenshots/daily/2025-12-23/Talent/_draup_home-layout.json",
+    "diffPath": "screenshots/diffs/_draup_home-diff.png",
+    "diffPixels": 40417,
+    "layoutChanges": {
+      "totalChanges": 11,
+      "changes": [
+        {
+          "type": "missing",
+          "severity": "major",
+          "selector": "a:visible:nth(9)",
+          "label": "Links #10",
+          "details": "Element \"Links #10\" no longer exists",
+          "oldValue": {
+            "x": 356,
+            "y": 439,
+            "width": 452,
+            "height": 48
+          },
+          "newValue": null
+        },
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "img:visible:nth(0)",
+          "label": "Images #1",
+          "details": "Element \"Images #1\" moved 116px (340,136) → (224,136)",
+          "oldValue": {
+            "x": 340,
+            "y": 136
+          },
+          "newValue": {
+            "x": 224,
+            "y": 136
+          }
+        },
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "img:visible:nth(1)",
+          "label": "Images #2",
+          "details": "Element \"Images #2\" moved 116px (882,145) → (998,145)",
+          "oldValue": {
+            "x": 882,
+            "y": 145
+          },
+          "newValue": {
+            "x": 998,
+            "y": 145
+          }
+        },
+        {
+          "type": "missing",
+          "severity": "major",
+          "selector": "img:visible:nth(2)",
+          "label": "Images #3",
+          "details": "Element \"Images #3\" no longer exists",
+          "oldValue": {
+            "x": 824,
+            "y": 439,
+            "width": 100,
+            "height": 60
+          },
+          "newValue": null
+        },
+        {
+          "type": "missing",
+          "severity": "major",
+          "selector": "img:visible:nth(3)",
+          "label": "Images #4",
+          "details": "Element \"Images #4\" no longer exists",
+          "oldValue": {
+            "x": 824,
+            "y": 607,
+            "width": 100,
+            "height": 60
+          },
+          "newValue": null
+        },
+        {
+          "type": "missing",
+          "severity": "major",
+          "selector": "img:visible:nth(4)",
+          "label": "Images #5",
+          "details": "Element \"Images #5\" no longer exists",
+          "oldValue": {
+            "x": 824,
+            "y": 751,
+            "width": 100,
+            "height": 60
+          },
+          "newValue": null
+        },
+        {
+          "type": "missing",
+          "severity": "major",
+          "selector": "img:visible:nth(5)",
+          "label": "Images #6",
+          "details": "Element \"Images #6\" no longer exists",
+          "oldValue": {
+            "x": 824,
+            "y": 895,
+            "width": 100,
+            "height": 60
+          },
+          "newValue": null
+        },
+        {
+          "type": "missing",
+          "severity": "major",
+          "selector": "img:visible:nth(6)",
+          "label": "Images #7",
+          "details": "Element \"Images #7\" no longer exists",
+          "oldValue": {
+            "x": 824,
+            "y": 1039,
+            "width": 100,
+            "height": 60
+          },
+          "newValue": null
+        },
+        {
+          "type": "missing",
+          "severity": "major",
+          "selector": "img:visible:nth(7)",
+          "label": "Images #8",
+          "details": "Element \"Images #8\" no longer exists",
+          "oldValue": {
+            "x": 824,
+            "y": 1207,
+            "width": 100,
+            "height": 60
+          },
+          "newValue": null
+        },
+        {
+          "type": "missing",
+          "severity": "major",
+          "selector": "img:visible:nth(8)",
+          "label": "Images #9",
+          "details": "Element \"Images #9\" no longer exists",
+          "oldValue": {
+            "x": 824,
+            "y": 1375,
+            "width": 100,
+            "height": 60
+          },
+          "newValue": null
+        },
+        {
+          "type": "missing",
+          "severity": "major",
+          "selector": "img:visible:nth(9)",
+          "label": "Images #10",
+          "details": "Element \"Images #10\" no longer exists",
+          "oldValue": {
+            "x": 824,
+            "y": 1519,
+            "width": 100,
+            "height": 60
+          },
+          "newValue": null
+        }
+      ],
+      "changesByType": {
+        "position": 2,
+        "size": 0,
+        "style": 0,
+        "missing": 9,
+        "new": 0,
+        "visibility": 0
+      },
+      "layoutScore": 35
+    },
+    "layoutOverlayPath": "screenshots/diffs/_draup_home-layout-overlay.png",
+    "totalPixels": 921600,
+    "imageWidth": 1280,
+    "imageHeight": 720
+  },
+  {
+    "url": "/draup/workforceplanning/talent",
+    "viewName": "_draup_workforceplanning_talent",
+    "product": "Talent",
+    "date": "2025-12-27",
+    "previousDate": "2025-12-23",
+    "status": "✅ OK",
+    "errors": [],
+    "previousPath": "screenshots/daily/2025-12-23/Talent/_draup_workforceplanning_talent.png",
+    "todayPath": "screenshots/daily/2025-12-27/Talent/_draup_workforceplanning_talent.png",
+    "todayLayoutPath": "screenshots/daily/2025-12-27/Talent/_draup_workforceplanning_talent-layout.json",
+    "previousLayoutPath": "screenshots/daily/2025-12-23/Talent/_draup_workforceplanning_talent-layout.json",
+    "diffPath": "screenshots/diffs/_draup_workforceplanning_talent-diff.png",
+    "diffPixels": 8656,
+    "layoutChanges": {
+      "totalChanges": 0,
+      "changes": [],
+      "changesByType": {
+        "position": 0,
+        "size": 0,
+        "style": 0,
+        "missing": 0,
+        "new": 0,
+        "visibility": 0
+      },
+      "layoutScore": 100
+    },
+    "layoutOverlayPath": null,
+    "totalPixels": 921600,
+    "imageWidth": 1280,
+    "imageHeight": 720
+  },
+  {
+    "url": "/draup/404",
+    "viewName": "_draup_404",
+    "product": "Talent",
+    "date": "2025-12-27",
+    "previousDate": "2025-12-23",
+    "status": "✅ OK",
+    "errors": [],
+    "previousPath": "screenshots/daily/2025-12-23/Talent/_draup_404.png",
+    "todayPath": "screenshots/daily/2025-12-27/Talent/_draup_404.png",
+    "todayLayoutPath": "screenshots/daily/2025-12-27/Talent/_draup_404-layout.json",
+    "previousLayoutPath": "screenshots/daily/2025-12-23/Talent/_draup_404-layout.json",
+    "diffPath": "screenshots/diffs/_draup_404-diff.png",
+    "diffPixels": 1056,
+    "layoutChanges": {
+      "totalChanges": 0,
+      "changes": [],
+      "changesByType": {
+        "position": 0,
+        "size": 0,
+        "style": 0,
+        "missing": 0,
+        "new": 0,
+        "visibility": 0
+      },
+      "layoutScore": 100
+    },
+    "layoutOverlayPath": null,
+    "totalPixels": 921600,
+    "imageWidth": 1280,
+    "imageHeight": 720
+  },
+  {
+    "url": "/draup/stack-iq",
+    "viewName": "_draup_stack_iq",
+    "product": "Talent",
+    "date": "2025-12-27",
+    "previousDate": "2025-12-23",
+    "status": "✅ OK",
+    "errors": [],
+    "previousPath": "screenshots/daily/2025-12-23/Talent/_draup_stack_iq.png",
+    "todayPath": "screenshots/daily/2025-12-27/Talent/_draup_stack_iq.png",
+    "todayLayoutPath": "screenshots/daily/2025-12-27/Talent/_draup_stack_iq-layout.json",
+    "previousLayoutPath": "screenshots/daily/2025-12-23/Talent/_draup_stack_iq-layout.json",
+    "diffPath": "screenshots/diffs/_draup_stack_iq-diff.png",
+    "diffPixels": 1863,
+    "layoutChanges": {
+      "totalChanges": 0,
+      "changes": [],
+      "changesByType": {
+        "position": 0,
+        "size": 0,
+        "style": 0,
+        "missing": 0,
+        "new": 0,
+        "visibility": 0
+      },
+      "layoutScore": 100
+    },
+    "layoutOverlayPath": null,
+    "totalPixels": 921600,
+    "imageWidth": 1280,
+    "imageHeight": 720
+  },
+  {
+    "url": "/draup/workforceplanning/demand",
+    "viewName": "_draup_workforceplanning_demand",
+    "product": "Talent",
+    "date": "2025-12-27",
+    "previousDate": "2025-12-23",
+    "status": "❌ Error",
+    "errors": [],
+    "previousPath": "screenshots/daily/2025-12-23/Talent/_draup_workforceplanning_demand.png",
+    "todayPath": "screenshots/daily/2025-12-27/Talent/_draup_workforceplanning_demand.png",
+    "todayLayoutPath": "screenshots/daily/2025-12-27/Talent/_draup_workforceplanning_demand-layout.json",
+    "previousLayoutPath": "screenshots/daily/2025-12-23/Talent/_draup_workforceplanning_demand-layout.json",
+    "diffPath": "screenshots/diffs/_draup_workforceplanning_demand-diff.png",
+    "diffPixels": 113659,
+    "layoutChanges": {
+      "totalChanges": 30,
+      "changes": [
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "button:visible:nth(3)",
+          "label": "Buttons #4",
+          "details": "Element \"Buttons #4\" moved 935px (574,252) → (1136,999)",
+          "oldValue": {
+            "x": 574,
+            "y": 252
+          },
+          "newValue": {
+            "x": 1136,
+            "y": 999
+          }
+        },
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "button:visible:nth(4)",
+          "label": "Buttons #5",
+          "details": "Element \"Buttons #5\" moved 1338px (1185,447) → (1063,1779)",
+          "oldValue": {
+            "x": 1185,
+            "y": 447
+          },
+          "newValue": {
+            "x": 1063,
+            "y": 1779
+          }
+        },
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "button:visible:nth(5)",
+          "label": "Buttons #6",
+          "details": "Element \"Buttons #6\" moved 1379px (490,672) → (943,1974)",
+          "oldValue": {
+            "x": 490,
+            "y": 672
+          },
+          "newValue": {
+            "x": 943,
+            "y": 1974
+          }
+        },
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "button:visible:nth(6)",
+          "label": "Buttons #7",
+          "details": "Element \"Buttons #7\" moved 1368px (490,895) → (988,2169)",
+          "oldValue": {
+            "x": 490,
+            "y": 895
+          },
+          "newValue": {
+            "x": 988,
+            "y": 2169
+          }
+        },
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "button:visible:nth(7)",
+          "label": "Buttons #8",
+          "details": "Element \"Buttons #8\" moved 1472px (1056,1088) → (1110,2559)",
+          "oldValue": {
+            "x": 1056,
+            "y": 1088
+          },
+          "newValue": {
+            "x": 1110,
+            "y": 2559
+          }
+        },
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": "button:visible:nth(7)",
+          "label": "Buttons #8",
+          "details": "Element \"Buttons #8\" resized from 53×20 to 46×20",
+          "oldValue": {
+            "width": 53,
+            "height": 20
+          },
+          "newValue": {
+            "width": 46,
+            "height": 20
+          }
+        },
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "button:visible:nth(8)",
+          "label": "Buttons #9",
+          "details": "Element \"Buttons #9\" moved 1276px (1115,1478) → (1110,2754)",
+          "oldValue": {
+            "x": 1115,
+            "y": 1478
+          },
+          "newValue": {
+            "x": 1110,
+            "y": 2754
+          }
+        },
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": "button:visible:nth(8)",
+          "label": "Buttons #9",
+          "details": "Element \"Buttons #9\" resized from 54×20 to 46×20",
+          "oldValue": {
+            "width": 54,
+            "height": 20
+          },
+          "newValue": {
+            "width": 46,
+            "height": 20
+          }
+        },
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "button:visible:nth(9)",
+          "label": "Buttons #10",
+          "details": "Element \"Buttons #10\" moved 1673px (955,1673) → (1110,3339)",
+          "oldValue": {
+            "x": 955,
+            "y": 1673
+          },
+          "newValue": {
+            "x": 1110,
+            "y": 3339
+          }
+        },
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": "a:visible:nth(9)",
+          "label": "Links #10",
+          "details": "Element \"Links #10\" resized from 184×24 to 337×24",
+          "oldValue": {
+            "width": 184,
+            "height": 24
+          },
+          "newValue": {
+            "width": 337,
+            "height": 24
+          }
+        },
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "img:visible:nth(0)",
+          "label": "Images #1",
+          "details": "Element \"Images #1\" moved 33px (393,548) → (393,515)",
+          "oldValue": {
+            "x": 393,
+            "y": 548
+          },
+          "newValue": {
+            "x": 393,
+            "y": 515
+          }
+        },
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": "img:visible:nth(0)",
+          "label": "Images #1",
+          "details": "Element \"Images #1\" resized from 72×48 to 72×68",
+          "oldValue": {
+            "width": 72,
+            "height": 48
+          },
+          "newValue": {
+            "width": 72,
+            "height": 68
+          }
+        },
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "img:visible:nth(1)",
+          "label": "Images #2",
+          "details": "Element \"Images #2\" moved 61px (393,771) → (393,710)",
+          "oldValue": {
+            "x": 393,
+            "y": 771
+          },
+          "newValue": {
+            "x": 393,
+            "y": 710
+          }
+        },
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": "img:visible:nth(1)",
+          "label": "Images #2",
+          "details": "Element \"Images #2\" resized from 72×48 to 72×68",
+          "oldValue": {
+            "width": 72,
+            "height": 48
+          },
+          "newValue": {
+            "width": 72,
+            "height": 68
+          }
+        },
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "img:visible:nth(2)",
+          "label": "Images #3",
+          "details": "Element \"Images #3\" moved 106px (393,994) → (393,1100)",
+          "oldValue": {
+            "x": 393,
+            "y": 994
+          },
+          "newValue": {
+            "x": 393,
+            "y": 1100
+          }
+        },
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": "img:visible:nth(2)",
+          "label": "Images #3",
+          "details": "Element \"Images #3\" resized from 72×48 to 72×72",
+          "oldValue": {
+            "width": 72,
+            "height": 48
+          },
+          "newValue": {
+            "width": 72,
+            "height": 72
+          }
+        },
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "img:visible:nth(3)",
+          "label": "Images #4",
+          "details": "Element \"Images #4\" moved 301px (393,1189) → (393,1490)",
+          "oldValue": {
+            "x": 393,
+            "y": 1189
+          },
+          "newValue": {
+            "x": 393,
+            "y": 1490
+          }
+        },
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": "img:visible:nth(3)",
+          "label": "Images #4",
+          "details": "Element \"Images #4\" resized from 72×48 to 72×36",
+          "oldValue": {
+            "width": 72,
+            "height": 48
+          },
+          "newValue": {
+            "width": 72,
+            "height": 36
+          }
+        },
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "img:visible:nth(4)",
+          "label": "Images #5",
+          "details": "Element \"Images #5\" moved 301px (393,1384) → (393,1685)",
+          "oldValue": {
+            "x": 393,
+            "y": 1384
+          },
+          "newValue": {
+            "x": 393,
+            "y": 1685
+          }
+        },
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": "img:visible:nth(4)",
+          "label": "Images #5",
+          "details": "Element \"Images #5\" resized from 72×48 to 72×36",
+          "oldValue": {
+            "width": 72,
+            "height": 48
+          },
+          "newValue": {
+            "width": 72,
+            "height": 36
+          }
+        },
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "img:visible:nth(5)",
+          "label": "Images #6",
+          "details": "Element \"Images #6\" moved 301px (393,1579) → (393,1880)",
+          "oldValue": {
+            "x": 393,
+            "y": 1579
+          },
+          "newValue": {
+            "x": 393,
+            "y": 1880
+          }
+        },
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": "img:visible:nth(5)",
+          "label": "Images #6",
+          "details": "Element \"Images #6\" resized from 72×48 to 72×36",
+          "oldValue": {
+            "width": 72,
+            "height": 48
+          },
+          "newValue": {
+            "width": 72,
+            "height": 36
+          }
+        },
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "img:visible:nth(6)",
+          "label": "Images #7",
+          "details": "Element \"Images #7\" moved 301px (393,1774) → (393,2075)",
+          "oldValue": {
+            "x": 393,
+            "y": 1774
+          },
+          "newValue": {
+            "x": 393,
+            "y": 2075
+          }
+        },
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": "img:visible:nth(6)",
+          "label": "Images #7",
+          "details": "Element \"Images #7\" resized from 72×48 to 72×36",
+          "oldValue": {
+            "width": 72,
+            "height": 48
+          },
+          "newValue": {
+            "width": 72,
+            "height": 36
+          }
+        },
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "img:visible:nth(7)",
+          "label": "Images #8",
+          "details": "Element \"Images #8\" moved 301px (393,1969) → (393,2270)",
+          "oldValue": {
+            "x": 393,
+            "y": 1969
+          },
+          "newValue": {
+            "x": 393,
+            "y": 2270
+          }
+        },
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": "img:visible:nth(7)",
+          "label": "Images #8",
+          "details": "Element \"Images #8\" resized from 72×48 to 72×36",
+          "oldValue": {
+            "width": 72,
+            "height": 48
+          },
+          "newValue": {
+            "width": 72,
+            "height": 36
+          }
+        },
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "img:visible:nth(8)",
+          "label": "Images #9",
+          "details": "Element \"Images #9\" moved 273px (393,2192) → (393,2465)",
+          "oldValue": {
+            "x": 393,
+            "y": 2192
+          },
+          "newValue": {
+            "x": 393,
+            "y": 2465
+          }
+        },
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": "img:visible:nth(8)",
+          "label": "Images #9",
+          "details": "Element \"Images #9\" resized from 72×48 to 72×72",
+          "oldValue": {
+            "width": 72,
+            "height": 48
+          },
+          "newValue": {
+            "width": 72,
+            "height": 72
+          }
+        },
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "img:visible:nth(9)",
+          "label": "Images #10",
+          "details": "Element \"Images #10\" moved 273px (393,2387) → (393,2660)",
+          "oldValue": {
+            "x": 393,
+            "y": 2387
+          },
+          "newValue": {
+            "x": 393,
+            "y": 2660
+          }
+        },
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": "img:visible:nth(9)",
+          "label": "Images #10",
+          "details": "Element \"Images #10\" resized from 72×48 to 72×72",
+          "oldValue": {
+            "width": 72,
+            "height": 48
+          },
+          "newValue": {
+            "width": 72,
+            "height": 72
+          }
+        }
+      ],
+      "changesByType": {
+        "position": 17,
+        "size": 13,
+        "style": 0,
+        "missing": 0,
+        "new": 0,
+        "visibility": 0
+      },
+      "layoutScore": 58
+    },
+    "layoutOverlayPath": "screenshots/diffs/_draup_workforceplanning_demand-layout-overlay.png",
+    "totalPixels": 921600,
+    "imageWidth": 1280,
+    "imageHeight": 720
+  },
+  {
+    "url": "/draup/workforceplanning/signals",
+    "viewName": "_draup_workforceplanning_signals",
+    "product": "Talent",
+    "date": "2025-12-27",
+    "previousDate": "2025-12-23",
+    "status": "❌ Error",
+    "errors": [],
+    "previousPath": "screenshots/daily/2025-12-23/Talent/_draup_workforceplanning_signals.png",
+    "todayPath": "screenshots/daily/2025-12-27/Talent/_draup_workforceplanning_signals.png",
+    "todayLayoutPath": "screenshots/daily/2025-12-27/Talent/_draup_workforceplanning_signals-layout.json",
+    "previousLayoutPath": "screenshots/daily/2025-12-23/Talent/_draup_workforceplanning_signals-layout.json",
+    "diffPath": "screenshots/diffs/_draup_workforceplanning_signals-diff.png",
+    "diffPixels": 273465,
+    "layoutChanges": {
+      "totalChanges": 0,
+      "changes": [],
+      "changesByType": {
+        "position": 0,
+        "size": 0,
+        "style": 0,
+        "missing": 0,
+        "new": 0,
+        "visibility": 0
+      },
+      "layoutScore": 100
+    },
+    "layoutOverlayPath": null,
+    "totalPixels": 921600,
+    "imageWidth": 1280,
+    "imageHeight": 720
+  },
+  {
+    "url": "/draup/mysignals",
+    "viewName": "_draup_mysignals",
+    "product": "Talent",
+    "date": "2025-12-27",
+    "previousDate": "2025-12-23",
+    "status": "✅ OK",
+    "errors": [],
+    "previousPath": "screenshots/daily/2025-12-23/Talent/_draup_mysignals.png",
+    "todayPath": "screenshots/daily/2025-12-27/Talent/_draup_mysignals.png",
+    "todayLayoutPath": "screenshots/daily/2025-12-27/Talent/_draup_mysignals-layout.json",
+    "previousLayoutPath": "screenshots/daily/2025-12-23/Talent/_draup_mysignals-layout.json",
+    "diffPath": "screenshots/diffs/_draup_mysignals-diff.png",
+    "diffPixels": 0,
+    "layoutChanges": {
+      "totalChanges": 0,
+      "changes": [],
+      "changesByType": {
+        "position": 0,
+        "size": 0,
+        "style": 0,
+        "missing": 0,
+        "new": 0,
+        "visibility": 0
+      },
+      "layoutScore": 100
+    },
+    "layoutOverlayPath": null,
+    "totalPixels": 921600,
+    "imageWidth": 1280,
+    "imageHeight": 720
+  },
+  {
+    "url": "/draup/universe",
+    "viewName": "_draup_universe",
+    "product": "Talent",
+    "date": "2025-12-27",
+    "previousDate": "2025-12-23",
+    "status": "❌ Error",
+    "errors": [],
+    "previousPath": "screenshots/daily/2025-12-23/Talent/_draup_universe.png",
+    "todayPath": "screenshots/daily/2025-12-27/Talent/_draup_universe.png",
+    "todayLayoutPath": "screenshots/daily/2025-12-27/Talent/_draup_universe-layout.json",
+    "previousLayoutPath": "screenshots/daily/2025-12-23/Talent/_draup_universe-layout.json",
+    "diffPath": "screenshots/diffs/_draup_universe-diff.png",
+    "diffPixels": 11961,
+    "layoutChanges": {
+      "totalChanges": 6,
+      "changes": [
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "button:visible:nth(1)",
+          "label": "Buttons #2",
+          "details": "Element \"Buttons #2\" moved 591px (80,793) → (16,1381)",
+          "oldValue": {
+            "x": 80,
+            "y": 793
+          },
+          "newValue": {
+            "x": 16,
+            "y": 1381
+          }
+        },
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": "button:visible:nth(1)",
+          "label": "Buttons #2",
+          "details": "Element \"Buttons #2\" resized from 120×24 to 101×20",
+          "oldValue": {
+            "width": 120,
+            "height": 24
+          },
+          "newValue": {
+            "width": 101,
+            "height": 20
+          }
+        },
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "button:visible:nth(2)",
+          "label": "Buttons #3",
+          "details": "Element \"Buttons #3\" moved 2771px (432,68) → (80,2817)",
+          "oldValue": {
+            "x": 432,
+            "y": 68
+          },
+          "newValue": {
+            "x": 80,
+            "y": 2817
+          }
+        },
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "button:visible:nth(3)",
+          "label": "Buttons #4",
+          "details": "Element \"Buttons #4\" moved 1097px (411,1165) → (432,68)",
+          "oldValue": {
+            "x": 411,
+            "y": 1165
+          },
+          "newValue": {
+            "x": 432,
+            "y": 68
+          }
+        },
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": "button:visible:nth(3)",
+          "label": "Buttons #4",
+          "details": "Element \"Buttons #4\" resized from 43×24 to 123×24",
+          "oldValue": {
+            "width": 43,
+            "height": 24
+          },
+          "newValue": {
+            "width": 123,
+            "height": 24
+          }
+        },
+        {
+          "type": "new",
+          "severity": "moderate",
+          "selector": "button:visible:nth(4)",
+          "label": "Buttons #5",
+          "details": "New element \"Buttons #5\" appeared at (411,1165)",
+          "oldValue": null,
+          "newValue": {
+            "x": 411,
+            "y": 1165,
+            "width": 43,
+            "height": 24
+          }
+        }
+      ],
+      "changesByType": {
+        "position": 3,
+        "size": 2,
+        "style": 0,
+        "missing": 0,
+        "new": 1,
+        "visibility": 0
+      },
+      "layoutScore": 89
+    },
+    "layoutOverlayPath": "screenshots/diffs/_draup_universe-layout-overlay.png",
+    "totalPixels": 921600,
+    "imageWidth": 1280,
+    "imageHeight": 720
+  },
+  {
+    "url": "/draup/mypeers",
+    "viewName": "_draup_mypeers",
+    "product": "Talent",
+    "date": "2025-12-27",
+    "previousDate": "2025-12-23",
+    "status": "✅ OK",
+    "errors": [],
+    "previousPath": "screenshots/daily/2025-12-23/Talent/_draup_mypeers.png",
+    "todayPath": "screenshots/daily/2025-12-27/Talent/_draup_mypeers.png",
+    "todayLayoutPath": "screenshots/daily/2025-12-27/Talent/_draup_mypeers-layout.json",
+    "previousLayoutPath": "screenshots/daily/2025-12-23/Talent/_draup_mypeers-layout.json",
+    "diffPath": "screenshots/diffs/_draup_mypeers-diff.png",
+    "diffPixels": 0,
+    "layoutChanges": {
+      "totalChanges": 0,
+      "changes": [],
+      "changesByType": {
+        "position": 0,
+        "size": 0,
+        "style": 0,
+        "missing": 0,
+        "new": 0,
+        "visibility": 0
+      },
+      "layoutScore": 100
+    },
+    "layoutOverlayPath": null,
+    "totalPixels": 921600,
+    "imageWidth": 1280,
+    "imageHeight": 720
+  },
+  {
+    "url": "/draup/projects",
+    "viewName": "_draup_projects",
+    "product": "Talent",
+    "date": "2025-12-27",
+    "previousDate": "2025-12-23",
+    "status": "✅ OK",
+    "errors": [],
+    "previousPath": "screenshots/daily/2025-12-23/Talent/_draup_projects.png",
+    "todayPath": "screenshots/daily/2025-12-27/Talent/_draup_projects.png",
+    "todayLayoutPath": "screenshots/daily/2025-12-27/Talent/_draup_projects-layout.json",
+    "previousLayoutPath": "screenshots/daily/2025-12-23/Talent/_draup_projects-layout.json",
+    "diffPath": "screenshots/diffs/_draup_projects-diff.png",
+    "diffPixels": 0,
+    "layoutChanges": {
+      "totalChanges": 0,
+      "changes": [],
+      "changesByType": {
+        "position": 0,
+        "size": 0,
+        "style": 0,
+        "missing": 0,
+        "new": 0,
+        "visibility": 0
+      },
+      "layoutScore": 100
+    },
+    "layoutOverlayPath": null,
+    "totalPixels": 921600,
+    "imageWidth": 1280,
+    "imageHeight": 720
+  },
+  {
+    "url": "/draup/recruitment/recruit",
+    "viewName": "_draup_recruitment_recruit",
+    "product": "Talent",
+    "date": "2025-12-27",
+    "previousDate": "2025-12-23",
+    "status": "✅ OK",
+    "errors": [],
+    "previousPath": "screenshots/daily/2025-12-23/Talent/_draup_recruitment_recruit.png",
+    "todayPath": "screenshots/daily/2025-12-27/Talent/_draup_recruitment_recruit.png",
+    "todayLayoutPath": "screenshots/daily/2025-12-27/Talent/_draup_recruitment_recruit-layout.json",
+    "previousLayoutPath": "screenshots/daily/2025-12-23/Talent/_draup_recruitment_recruit-layout.json",
+    "diffPath": "screenshots/diffs/_draup_recruitment_recruit-diff.png",
+    "diffPixels": 0,
+    "layoutChanges": {
+      "totalChanges": 0,
+      "changes": [],
+      "changesByType": {
+        "position": 0,
+        "size": 0,
+        "style": 0,
+        "missing": 0,
+        "new": 0,
+        "visibility": 0
+      },
+      "layoutScore": 100
+    },
+    "layoutOverlayPath": null,
+    "totalPixels": 921600,
+    "imageWidth": 1280,
+    "imageHeight": 720
+  },
+  {
+    "url": "/draup/jobs",
+    "viewName": "_draup_jobs",
+    "product": "Talent",
+    "date": "2025-12-27",
+    "previousDate": "2025-12-23",
+    "status": "✅ OK",
+    "errors": [],
+    "previousPath": "screenshots/daily/2025-12-23/Talent/_draup_jobs.png",
+    "todayPath": "screenshots/daily/2025-12-27/Talent/_draup_jobs.png",
+    "todayLayoutPath": "screenshots/daily/2025-12-27/Talent/_draup_jobs-layout.json",
+    "previousLayoutPath": "screenshots/daily/2025-12-23/Talent/_draup_jobs-layout.json",
+    "diffPath": "screenshots/diffs/_draup_jobs-diff.png",
+    "diffPixels": 0,
+    "layoutChanges": {
+      "totalChanges": 0,
+      "changes": [],
+      "changesByType": {
+        "position": 0,
+        "size": 0,
+        "style": 0,
+        "missing": 0,
+        "new": 0,
+        "visibility": 0
+      },
+      "layoutScore": 100
+    },
+    "layoutOverlayPath": null,
+    "totalPixels": 921600,
+    "imageWidth": 1280,
+    "imageHeight": 720
+  },
+  {
+    "url": "/draup/recruitment/talent",
+    "viewName": "_draup_recruitment_talent",
+    "product": "Talent",
+    "date": "2025-12-27",
+    "previousDate": "2025-12-23",
+    "status": "✅ OK",
+    "errors": [],
+    "previousPath": "screenshots/daily/2025-12-23/Talent/_draup_recruitment_talent.png",
+    "todayPath": "screenshots/daily/2025-12-27/Talent/_draup_recruitment_talent.png",
+    "todayLayoutPath": "screenshots/daily/2025-12-27/Talent/_draup_recruitment_talent-layout.json",
+    "previousLayoutPath": "screenshots/daily/2025-12-23/Talent/_draup_recruitment_talent-layout.json",
+    "diffPath": "screenshots/diffs/_draup_recruitment_talent-diff.png",
+    "diffPixels": 8656,
+    "layoutChanges": {
+      "totalChanges": 0,
+      "changes": [],
+      "changesByType": {
+        "position": 0,
+        "size": 0,
+        "style": 0,
+        "missing": 0,
+        "new": 0,
+        "visibility": 0
+      },
+      "layoutScore": 100
+    },
+    "layoutOverlayPath": null,
+    "totalPixels": 921600,
+    "imageWidth": 1280,
+    "imageHeight": 720
+  },
+  {
+    "url": "/draup/reskilling/reskillsimulator",
+    "viewName": "_draup_reskilling_reskillsimulator",
+    "product": "Talent",
+    "date": "2025-12-27",
+    "previousDate": "2025-12-23",
+    "status": "✅ OK",
+    "errors": [],
+    "previousPath": "screenshots/daily/2025-12-23/Talent/_draup_reskilling_reskillsimulator.png",
+    "todayPath": "screenshots/daily/2025-12-27/Talent/_draup_reskilling_reskillsimulator.png",
+    "todayLayoutPath": "screenshots/daily/2025-12-27/Talent/_draup_reskilling_reskillsimulator-layout.json",
+    "previousLayoutPath": "screenshots/daily/2025-12-23/Talent/_draup_reskilling_reskillsimulator-layout.json",
+    "diffPath": "screenshots/diffs/_draup_reskilling_reskillsimulator-diff.png",
+    "diffPixels": 0,
+    "layoutChanges": {
+      "totalChanges": 0,
+      "changes": [],
+      "changesByType": {
+        "position": 0,
+        "size": 0,
+        "style": 0,
+        "missing": 0,
+        "new": 0,
+        "visibility": 0
+      },
+      "layoutScore": 100
+    },
+    "layoutOverlayPath": null,
+    "totalPixels": 1120000,
+    "imageWidth": 1280,
+    "imageHeight": 875
+  },
+  {
+    "url": "/draup/reskilling/reskillnavigator",
+    "viewName": "_draup_reskilling_reskillnavigator",
+    "product": "Talent",
+    "date": "2025-12-27",
+    "previousDate": "2025-12-23",
+    "status": "✅ OK",
+    "errors": [],
+    "previousPath": "screenshots/daily/2025-12-23/Talent/_draup_reskilling_reskillnavigator.png",
+    "todayPath": "screenshots/daily/2025-12-27/Talent/_draup_reskilling_reskillnavigator.png",
+    "todayLayoutPath": "screenshots/daily/2025-12-27/Talent/_draup_reskilling_reskillnavigator-layout.json",
+    "previousLayoutPath": "screenshots/daily/2025-12-23/Talent/_draup_reskilling_reskillnavigator-layout.json",
+    "diffPath": "screenshots/diffs/_draup_reskilling_reskillnavigator-diff.png",
+    "diffPixels": 40,
+    "layoutChanges": {
+      "totalChanges": 0,
+      "changes": [],
+      "changesByType": {
+        "position": 0,
+        "size": 0,
+        "style": 0,
+        "missing": 0,
+        "new": 0,
+        "visibility": 0
+      },
+      "layoutScore": 100
+    },
+    "layoutOverlayPath": null,
+    "totalPixels": 921600,
+    "imageWidth": 1280,
+    "imageHeight": 720
+  },
+  {
+    "url": "/draup/reskilling/employeereskilling",
+    "viewName": "_draup_reskilling_employeereskilling",
+    "product": "Talent",
+    "date": "2025-12-27",
+    "previousDate": "2025-12-23",
+    "status": "✅ OK",
+    "errors": [],
+    "previousPath": "screenshots/daily/2025-12-23/Talent/_draup_reskilling_employeereskilling.png",
+    "todayPath": "screenshots/daily/2025-12-27/Talent/_draup_reskilling_employeereskilling.png",
+    "todayLayoutPath": "screenshots/daily/2025-12-27/Talent/_draup_reskilling_employeereskilling-layout.json",
+    "previousLayoutPath": "screenshots/daily/2025-12-23/Talent/_draup_reskilling_employeereskilling-layout.json",
+    "diffPath": "screenshots/diffs/_draup_reskilling_employeereskilling-diff.png",
+    "diffPixels": 4903,
+    "layoutChanges": {
+      "totalChanges": 0,
+      "changes": [],
+      "changesByType": {
+        "position": 0,
+        "size": 0,
+        "style": 0,
+        "missing": 0,
+        "new": 0,
+        "visibility": 0
+      },
+      "layoutScore": 100
+    },
+    "layoutOverlayPath": null,
+    "totalPixels": 921600,
+    "imageWidth": 1280,
+    "imageHeight": 720
+  },
+  {
+    "url": "/draup/academia",
+    "viewName": "_draup_academia",
+    "product": "Talent",
+    "date": "2025-12-27",
+    "previousDate": "2025-12-23",
+    "status": "✅ OK",
+    "errors": [],
+    "previousPath": "screenshots/daily/2025-12-23/Talent/_draup_academia.png",
+    "todayPath": "screenshots/daily/2025-12-27/Talent/_draup_academia.png",
+    "todayLayoutPath": "screenshots/daily/2025-12-27/Talent/_draup_academia-layout.json",
+    "previousLayoutPath": "screenshots/daily/2025-12-23/Talent/_draup_academia-layout.json",
+    "diffPath": "screenshots/diffs/_draup_academia-diff.png",
+    "diffPixels": 69,
+    "layoutChanges": {
+      "totalChanges": 0,
+      "changes": [],
+      "changesByType": {
+        "position": 0,
+        "size": 0,
+        "style": 0,
+        "missing": 0,
+        "new": 0,
+        "visibility": 0
+      },
+      "layoutScore": 100
+    },
+    "layoutOverlayPath": null,
+    "totalPixels": 1648640,
+    "imageWidth": 1280,
+    "imageHeight": 1288
+  },
+  {
+    "url": "/draup/braindesk",
+    "viewName": "_draup_braindesk",
+    "product": "Talent",
+    "date": "2025-12-27",
+    "previousDate": "2025-12-23",
+    "status": "❌ Error",
+    "errors": [],
+    "previousPath": "screenshots/daily/2025-12-23/Talent/_draup_braindesk.png",
+    "todayPath": "screenshots/daily/2025-12-27/Talent/_draup_braindesk.png",
+    "todayLayoutPath": "screenshots/daily/2025-12-27/Talent/_draup_braindesk-layout.json",
+    "previousLayoutPath": "screenshots/daily/2025-12-23/Talent/_draup_braindesk-layout.json",
+    "diffPath": "screenshots/diffs/_draup_braindesk-diff.png",
+    "diffPixels": 23879,
+    "layoutChanges": {
+      "totalChanges": 9,
+      "changes": [
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": ".content:nth(4)",
+          "label": "Content Area #5",
+          "details": "Element \"Content Area #5\" resized from 339×88 to 339×112",
+          "oldValue": {
+            "width": 339,
+            "height": 88
+          },
+          "newValue": {
+            "width": 339,
+            "height": 112
+          }
+        },
+        {
+          "type": "position",
+          "severity": "moderate",
+          "selector": ".content:nth(5)",
+          "label": "Content Area #6",
+          "details": "Element \"Content Area #6\" moved 8px (475,1096) → (475,1088)",
+          "oldValue": {
+            "x": 475,
+            "y": 1096
+          },
+          "newValue": {
+            "x": 475,
+            "y": 1088
+          }
+        },
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": ".content:nth(5)",
+          "label": "Content Area #6",
+          "details": "Element \"Content Area #6\" resized from 339×112 to 339×88",
+          "oldValue": {
+            "width": 339,
+            "height": 112
+          },
+          "newValue": {
+            "width": 339,
+            "height": 88
+          }
+        },
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": ".content:nth(6)",
+          "label": "Content Area #7",
+          "details": "Element \"Content Area #7\" resized from 339×112 to 339×88",
+          "oldValue": {
+            "width": 339,
+            "height": 112
+          },
+          "newValue": {
+            "width": 339,
+            "height": 88
+          }
+        },
+        {
+          "type": "position",
+          "severity": "moderate",
+          "selector": ".content:nth(7)",
+          "label": "Content Area #8",
+          "details": "Element \"Content Area #8\" moved 8px (861,1096) → (861,1088)",
+          "oldValue": {
+            "x": 861,
+            "y": 1096
+          },
+          "newValue": {
+            "x": 861,
+            "y": 1088
+          }
+        },
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": ".content:nth(7)",
+          "label": "Content Area #8",
+          "details": "Element \"Content Area #8\" resized from 339×88 to 339×112",
+          "oldValue": {
+            "width": 339,
+            "height": 88
+          },
+          "newValue": {
+            "width": 339,
+            "height": 112
+          }
+        },
+        {
+          "type": "size",
+          "severity": "moderate",
+          "selector": "a:visible:nth(8)",
+          "label": "Links #9",
+          "details": "Element \"Links #9\" resized from 371×176 to 371×168",
+          "oldValue": {
+            "width": 371,
+            "height": 176
+          },
+          "newValue": {
+            "width": 371,
+            "height": 168
+          }
+        },
+        {
+          "type": "position",
+          "severity": "moderate",
+          "selector": "a:visible:nth(9)",
+          "label": "Links #10",
+          "details": "Element \"Links #10\" moved 8px (459,1080) → (459,1072)",
+          "oldValue": {
+            "x": 459,
+            "y": 1080
+          },
+          "newValue": {
+            "x": 459,
+            "y": 1072
+          }
+        },
+        {
+          "type": "size",
+          "severity": "moderate",
+          "selector": "a:visible:nth(9)",
+          "label": "Links #10",
+          "details": "Element \"Links #10\" resized from 371×176 to 371×168",
+          "oldValue": {
+            "width": 371,
+            "height": 176
+          },
+          "newValue": {
+            "width": 371,
+            "height": 168
+          }
+        }
+      ],
+      "changesByType": {
+        "position": 3,
+        "size": 6,
+        "style": 0,
+        "missing": 0,
+        "new": 0,
+        "visibility": 0
+      },
+      "layoutScore": 81
+    },
+    "layoutOverlayPath": "screenshots/diffs/_draup_braindesk-layout-overlay.png",
+    "totalPixels": 921600,
+    "imageWidth": 1280,
+    "imageHeight": 720
+  },
+  {
+    "url": "/draup/myreports",
+    "viewName": "_draup_myreports",
+    "product": "Talent",
+    "date": "2025-12-27",
+    "previousDate": "2025-12-23",
+    "status": "❌ Error",
+    "errors": [],
+    "previousPath": "screenshots/daily/2025-12-23/Talent/_draup_myreports.png",
+    "todayPath": "screenshots/daily/2025-12-27/Talent/_draup_myreports.png",
+    "todayLayoutPath": "screenshots/daily/2025-12-27/Talent/_draup_myreports-layout.json",
+    "previousLayoutPath": "screenshots/daily/2025-12-23/Talent/_draup_myreports-layout.json",
+    "diffPath": "screenshots/diffs/_draup_myreports-diff.png",
+    "diffPixels": 148644,
+    "layoutChanges": {
+      "totalChanges": 19,
+      "changes": [
+        {
+          "type": "position",
+          "severity": "moderate",
+          "selector": "main",
+          "label": "Main Content",
+          "details": "Element \"Main Content\" moved 16px (0,52) → (0,68)",
+          "oldValue": {
+            "x": 0,
+            "y": 52
+          },
+          "newValue": {
+            "x": 0,
+            "y": 68
+          }
+        },
+        {
+          "type": "size",
+          "severity": "moderate",
+          "selector": "main",
+          "label": "Main Content",
+          "details": "Element \"Main Content\" resized from 1280×568 to 1280×524",
+          "oldValue": {
+            "width": 1280,
+            "height": 568
+          },
+          "newValue": {
+            "width": 1280,
+            "height": 524
+          }
+        },
+        {
+          "type": "missing",
+          "severity": "major",
+          "selector": ".content",
+          "label": "Content Area",
+          "details": "Element \"Content Area\" no longer exists",
+          "oldValue": {
+            "x": 56,
+            "y": 68,
+            "width": 1208,
+            "height": 24
+          },
+          "newValue": null
+        },
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "a:visible:nth(4)",
+          "label": "Links #5",
+          "details": "Element \"Links #5\" moved 667px (392,68) → (1059,68)",
+          "oldValue": {
+            "x": 392,
+            "y": 68
+          },
+          "newValue": {
+            "x": 1059,
+            "y": 68
+          }
+        },
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": "a:visible:nth(4)",
+          "label": "Links #5",
+          "details": "Element \"Links #5\" resized from 75×24 to 93×36",
+          "oldValue": {
+            "width": 75,
+            "height": 24
+          },
+          "newValue": {
+            "width": 93,
+            "height": 36
+          }
+        },
+        {
+          "type": "style",
+          "severity": "minor",
+          "selector": "a:visible:nth(4)",
+          "label": "Links #5",
+          "details": "Element \"Links #5\" styles changed: font-size: 14px → 16px, color: rgb(0, 116, 197) → rgb(255, 255, 255), background: rgba(0, 0, 0, 0) → rgb(0, 116, 217)",
+          "oldValue": {
+            "fontSize": "14px",
+            "color": "rgb(0, 116, 197)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "newValue": {
+            "fontSize": "16px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(0, 116, 217)"
+          }
+        },
+        {
+          "type": "missing",
+          "severity": "major",
+          "selector": "a:visible:nth(5)",
+          "label": "Links #6",
+          "details": "Element \"Links #6\" no longer exists",
+          "oldValue": {
+            "x": 847,
+            "y": 124,
+            "width": 34,
+            "height": 36
+          },
+          "newValue": null
+        },
+        {
+          "type": "missing",
+          "severity": "major",
+          "selector": "a:visible:nth(6)",
+          "label": "Links #7",
+          "details": "Element \"Links #7\" no longer exists",
+          "oldValue": {
+            "x": 889,
+            "y": 124,
+            "width": 126,
+            "height": 36
+          },
+          "newValue": null
+        },
+        {
+          "type": "missing",
+          "severity": "major",
+          "selector": "a:visible:nth(7)",
+          "label": "Links #8",
+          "details": "Element \"Links #8\" no longer exists",
+          "oldValue": {
+            "x": 1023,
+            "y": 124,
+            "width": 93,
+            "height": 36
+          },
+          "newValue": null
+        },
+        {
+          "type": "missing",
+          "severity": "major",
+          "selector": "a:visible:nth(8)",
+          "label": "Links #9",
+          "details": "Element \"Links #9\" no longer exists",
+          "oldValue": {
+            "x": 435,
+            "y": 437,
+            "width": 426,
+            "height": 22
+          },
+          "newValue": null
+        },
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "img:visible:nth(0)",
+          "label": "Images #1",
+          "details": "Element \"Images #1\" moved 176px (907,138) → (1073,79)",
+          "oldValue": {
+            "x": 907,
+            "y": 138
+          },
+          "newValue": {
+            "x": 1073,
+            "y": 79
+          }
+        },
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": "img:visible:nth(0)",
+          "label": "Images #1",
+          "details": "Element \"Images #1\" resized from 10×12 to 14×18",
+          "oldValue": {
+            "width": 10,
+            "height": 12
+          },
+          "newValue": {
+            "width": 14,
+            "height": 18
+          }
+        },
+        {
+          "type": "style",
+          "severity": "minor",
+          "selector": "img:visible:nth(0)",
+          "label": "Images #1",
+          "details": "Element \"Images #1\" styles changed: color: rgb(45, 55, 64) → rgb(255, 255, 255)",
+          "oldValue": {
+            "fontSize": "16px",
+            "color": "rgb(45, 55, 64)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "newValue": {
+            "fontSize": "16px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "img:visible:nth(1)",
+          "label": "Images #2",
+          "details": "Element \"Images #2\" moved 893px (1037,135) → (144,138)",
+          "oldValue": {
+            "x": 1037,
+            "y": 135
+          },
+          "newValue": {
+            "x": 144,
+            "y": 138
+          }
+        },
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": "img:visible:nth(1)",
+          "label": "Images #2",
+          "details": "Element \"Images #2\" resized from 14×18 to 34×48",
+          "oldValue": {
+            "width": 14,
+            "height": 18
+          },
+          "newValue": {
+            "width": 34,
+            "height": 48
+          }
+        },
+        {
+          "type": "style",
+          "severity": "minor",
+          "selector": "img:visible:nth(1)",
+          "label": "Images #2",
+          "details": "Element \"Images #2\" styles changed: color: rgb(45, 55, 64) → rgb(33, 37, 41)",
+          "oldValue": {
+            "fontSize": "16px",
+            "color": "rgb(45, 55, 64)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "newValue": {
+            "fontSize": "16px",
+            "color": "rgb(33, 37, 41)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "type": "position",
+          "severity": "moderate",
+          "selector": "img:visible:nth(2)",
+          "label": "Images #3",
+          "details": "Element \"Images #3\" moved 12px (622,329) → (622,341)",
+          "oldValue": {
+            "x": 622,
+            "y": 329
+          },
+          "newValue": {
+            "x": 622,
+            "y": 341
+          }
+        },
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": "img:visible:nth(2)",
+          "label": "Images #3",
+          "details": "Element \"Images #3\" resized from 60×69 to 60×60",
+          "oldValue": {
+            "width": 60,
+            "height": 69
+          },
+          "newValue": {
+            "width": 60,
+            "height": 60
+          }
+        },
+        {
+          "type": "new",
+          "severity": "moderate",
+          "selector": "button:visible",
+          "label": "Buttons",
+          "details": "New element \"Buttons\" appeared at (1079,143)",
+          "oldValue": null,
+          "newValue": {
+            "x": 1079,
+            "y": 143,
+            "width": 57,
+            "height": 38
+          }
+        }
+      ],
+      "changesByType": {
+        "position": 5,
+        "size": 5,
+        "style": 3,
+        "missing": 5,
+        "new": 1,
+        "visibility": 0
+      },
+      "layoutScore": 13
+    },
+    "layoutOverlayPath": "screenshots/diffs/_draup_myreports-layout-overlay.png",
+    "totalPixels": 921600,
+    "imageWidth": 1280,
+    "imageHeight": 720
+  },
+  {
+    "url": "/draup/mainprojects",
+    "viewName": "_draup_mainprojects",
+    "product": "Talent",
+    "date": "2025-12-27",
+    "previousDate": "2025-12-23",
+    "status": "✅ OK",
+    "errors": [],
+    "previousPath": "screenshots/daily/2025-12-23/Talent/_draup_mainprojects.png",
+    "todayPath": "screenshots/daily/2025-12-27/Talent/_draup_mainprojects.png",
+    "todayLayoutPath": "screenshots/daily/2025-12-27/Talent/_draup_mainprojects-layout.json",
+    "previousLayoutPath": "screenshots/daily/2025-12-23/Talent/_draup_mainprojects-layout.json",
+    "diffPath": "screenshots/diffs/_draup_mainprojects-diff.png",
+    "diffPixels": 0,
+    "layoutChanges": {
+      "totalChanges": 0,
+      "changes": [],
+      "changesByType": {
+        "position": 0,
+        "size": 0,
+        "style": 0,
+        "missing": 0,
+        "new": 0,
+        "visibility": 0
+      },
+      "layoutScore": 100
+    },
+    "layoutOverlayPath": null,
+    "totalPixels": 921600,
+    "imageWidth": 1280,
+    "imageHeight": 720
+  },
+  {
+    "url": "/draup/university",
+    "viewName": "_draup_university",
+    "product": "Talent",
+    "date": "2025-12-27",
+    "previousDate": "2025-12-23",
+    "status": "❌ Error",
+    "errors": [],
+    "previousPath": "screenshots/daily/2025-12-23/Talent/_draup_university.png",
+    "todayPath": "screenshots/daily/2025-12-27/Talent/_draup_university.png",
+    "todayLayoutPath": "screenshots/daily/2025-12-27/Talent/_draup_university-layout.json",
+    "previousLayoutPath": "screenshots/daily/2025-12-23/Talent/_draup_university-layout.json",
+    "diffPath": "screenshots/diffs/_draup_university-diff.png",
+    "diffPixels": 4941,
+    "layoutChanges": {
+      "totalChanges": 3,
+      "changes": [
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "button:visible:nth(1)",
+          "label": "Buttons #2",
+          "details": "Element \"Buttons #2\" moved 892px (80,529) → (80,1421)",
+          "oldValue": {
+            "x": 80,
+            "y": 529
+          },
+          "newValue": {
+            "x": 80,
+            "y": 1421
+          }
+        },
+        {
+          "type": "style",
+          "severity": "minor",
+          "selector": "img:visible:nth(1)",
+          "label": "Images #2",
+          "details": "Element \"Images #2\" styles changed: background: rgb(245, 246, 247) → rgba(0, 0, 0, 0)",
+          "oldValue": {
+            "fontSize": "14px",
+            "color": "rgb(34, 46, 57)",
+            "backgroundColor": "rgb(245, 246, 247)"
+          },
+          "newValue": {
+            "fontSize": "14px",
+            "color": "rgb(34, 46, 57)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "type": "style",
+          "severity": "minor",
+          "selector": "img:visible:nth(4)",
+          "label": "Images #5",
+          "details": "Element \"Images #5\" styles changed: background: rgb(245, 246, 247) → rgba(0, 0, 0, 0)",
+          "oldValue": {
+            "fontSize": "14px",
+            "color": "rgb(34, 46, 57)",
+            "backgroundColor": "rgb(245, 246, 247)"
+          },
+          "newValue": {
+            "fontSize": "14px",
+            "color": "rgb(34, 46, 57)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          }
+        }
+      ],
+      "changesByType": {
+        "position": 1,
+        "size": 0,
+        "style": 2,
+        "missing": 0,
+        "new": 0,
+        "visibility": 0
+      },
+      "layoutScore": 98
+    },
+    "layoutOverlayPath": "screenshots/diffs/_draup_university-layout-overlay.png",
+    "totalPixels": 921600,
+    "imageWidth": 1280,
+    "imageHeight": 720
+  },
+  {
+    "url": "/draup/industrycurator",
+    "viewName": "_draup_industrycurator",
+    "product": "Sales",
+    "date": "2025-12-27",
+    "previousDate": "2025-12-23",
+    "status": "✅ OK",
+    "errors": [],
+    "previousPath": "screenshots/daily/2025-12-23/Sales/_draup_industrycurator.png",
+    "todayPath": "screenshots/daily/2025-12-27/Sales/_draup_industrycurator.png",
+    "todayLayoutPath": "screenshots/daily/2025-12-27/Sales/_draup_industrycurator-layout.json",
+    "previousLayoutPath": "screenshots/daily/2025-12-23/Sales/_draup_industrycurator-layout.json",
+    "diffPath": "screenshots/diffs/_draup_industrycurator-diff.png",
+    "diffPixels": 0,
+    "layoutChanges": {
+      "totalChanges": 0,
+      "changes": [],
+      "changesByType": {
+        "position": 0,
+        "size": 0,
+        "style": 0,
+        "missing": 0,
+        "new": 0,
+        "visibility": 0
+      },
+      "layoutScore": 100
+    },
+    "layoutOverlayPath": null,
+    "totalPixels": 921600,
+    "imageWidth": 1280,
+    "imageHeight": 720
+  },
+  {
+    "url": "/draup/ecosystem",
+    "viewName": "_draup_ecosystem",
+    "product": "Sales",
+    "date": "2025-12-27",
+    "previousDate": "2025-12-23",
+    "status": "✅ OK",
+    "errors": [],
+    "previousPath": "screenshots/daily/2025-12-23/Sales/_draup_ecosystem.png",
+    "todayPath": "screenshots/daily/2025-12-27/Sales/_draup_ecosystem.png",
+    "todayLayoutPath": "screenshots/daily/2025-12-27/Sales/_draup_ecosystem-layout.json",
+    "previousLayoutPath": "screenshots/daily/2025-12-23/Sales/_draup_ecosystem-layout.json",
+    "diffPath": "screenshots/diffs/_draup_ecosystem-diff.png",
+    "diffPixels": 4485,
+    "layoutChanges": {
+      "totalChanges": 0,
+      "changes": [],
+      "changesByType": {
+        "position": 0,
+        "size": 0,
+        "style": 0,
+        "missing": 0,
+        "new": 0,
+        "visibility": 0
+      },
+      "layoutScore": 100
+    },
+    "layoutOverlayPath": null,
+    "totalPixels": 921600,
+    "imageWidth": 1280,
+    "imageHeight": 720
+  },
+  {
+    "url": "/draup/stack-iq",
+    "viewName": "_draup_stack_iq",
+    "product": "Sales",
+    "date": "2025-12-27",
+    "previousDate": "2025-12-23",
+    "status": "✅ OK",
+    "errors": [],
+    "previousPath": "screenshots/daily/2025-12-23/Sales/_draup_stack_iq.png",
+    "todayPath": "screenshots/daily/2025-12-27/Sales/_draup_stack_iq.png",
+    "todayLayoutPath": "screenshots/daily/2025-12-27/Sales/_draup_stack_iq-layout.json",
+    "previousLayoutPath": "screenshots/daily/2025-12-23/Sales/_draup_stack_iq-layout.json",
+    "diffPath": "screenshots/diffs/_draup_stack_iq-diff.png",
+    "diffPixels": 1863,
+    "layoutChanges": {
+      "totalChanges": 0,
+      "changes": [],
+      "changesByType": {
+        "position": 0,
+        "size": 0,
+        "style": 0,
+        "missing": 0,
+        "new": 0,
+        "visibility": 0
+      },
+      "layoutScore": 100
+    },
+    "layoutOverlayPath": null,
+    "totalPixels": 921600,
+    "imageWidth": 1280,
+    "imageHeight": 720
+  },
+  {
+    "url": "/draup/signalscast",
+    "viewName": "_draup_signalscast",
+    "product": "Sales",
+    "date": "2025-12-27",
+    "previousDate": "2025-12-23",
+    "status": "❌ Error",
+    "errors": [],
+    "previousPath": "screenshots/daily/2025-12-23/Sales/_draup_signalscast.png",
+    "todayPath": "screenshots/daily/2025-12-27/Sales/_draup_signalscast.png",
+    "todayLayoutPath": "screenshots/daily/2025-12-27/Sales/_draup_signalscast-layout.json",
+    "previousLayoutPath": "screenshots/daily/2025-12-23/Sales/_draup_signalscast-layout.json",
+    "diffPath": "screenshots/diffs/_draup_signalscast-diff.png",
+    "diffPixels": 280431,
+    "layoutChanges": {
+      "totalChanges": 0,
+      "changes": [],
+      "changesByType": {
+        "position": 0,
+        "size": 0,
+        "style": 0,
+        "missing": 0,
+        "new": 0,
+        "visibility": 0
+      },
+      "layoutScore": 100
+    },
+    "layoutOverlayPath": null,
+    "totalPixels": 921600,
+    "imageWidth": 1280,
+    "imageHeight": 720
+  },
+  {
+    "url": "/draup/myaccounts",
+    "viewName": "_draup_myaccounts",
+    "product": "Sales",
+    "date": "2025-12-27",
+    "previousDate": "2025-12-23",
+    "status": "❌ Error",
+    "errors": [],
+    "previousPath": "screenshots/daily/2025-12-23/Sales/_draup_myaccounts.png",
+    "todayPath": "screenshots/daily/2025-12-27/Sales/_draup_myaccounts.png",
+    "todayLayoutPath": "screenshots/daily/2025-12-27/Sales/_draup_myaccounts-layout.json",
+    "previousLayoutPath": "screenshots/daily/2025-12-23/Sales/_draup_myaccounts-layout.json",
+    "diffPath": "screenshots/diffs/_draup_myaccounts-diff.png",
+    "diffPixels": 487061,
+    "layoutChanges": {
+      "totalChanges": 4,
+      "changes": [
+        {
+          "type": "missing",
+          "severity": "major",
+          "selector": "button:visible:nth(0)",
+          "label": "Buttons #1",
+          "details": "Element \"Buttons #1\" no longer exists",
+          "oldValue": {
+            "x": 56,
+            "y": 62,
+            "width": 245,
+            "height": 24
+          },
+          "newValue": null
+        },
+        {
+          "type": "missing",
+          "severity": "major",
+          "selector": "button:visible:nth(1)",
+          "label": "Buttons #2",
+          "details": "Element \"Buttons #2\" no longer exists",
+          "oldValue": {
+            "x": 1197,
+            "y": 769,
+            "width": 48,
+            "height": 48
+          },
+          "newValue": null
+        },
+        {
+          "type": "missing",
+          "severity": "major",
+          "selector": "a:visible:nth(6)",
+          "label": "Links #7",
+          "details": "Element \"Links #7\" no longer exists",
+          "oldValue": {
+            "x": 8,
+            "y": 188,
+            "width": 232,
+            "height": 40
+          },
+          "newValue": null
+        },
+        {
+          "type": "missing",
+          "severity": "major",
+          "selector": "a:visible:nth(7)",
+          "label": "Links #8",
+          "details": "Element \"Links #8\" no longer exists",
+          "oldValue": {
+            "x": 8,
+            "y": 272,
+            "width": 232,
+            "height": 40
+          },
+          "newValue": null
+        }
+      ],
+      "changesByType": {
+        "position": 0,
+        "size": 0,
+        "style": 0,
+        "missing": 4,
+        "new": 0,
+        "visibility": 0
+      },
+      "layoutScore": 52
+    },
+    "layoutOverlayPath": "screenshots/diffs/_draup_myaccounts-layout-overlay.png",
+    "totalPixels": 921600,
+    "imageWidth": 1280,
+    "imageHeight": 720
+  },
+  {
+    "url": "/draup/industry/demand",
+    "viewName": "_draup_industry_demand",
+    "product": "Sales",
+    "date": "2025-12-27",
+    "previousDate": "2025-12-23",
+    "status": "❌ Error",
+    "errors": [],
+    "previousPath": "screenshots/daily/2025-12-23/Sales/_draup_industry_demand.png",
+    "todayPath": "screenshots/daily/2025-12-27/Sales/_draup_industry_demand.png",
+    "todayLayoutPath": "screenshots/daily/2025-12-27/Sales/_draup_industry_demand-layout.json",
+    "previousLayoutPath": "screenshots/daily/2025-12-23/Sales/_draup_industry_demand-layout.json",
+    "diffPath": "screenshots/diffs/_draup_industry_demand-diff.png",
+    "diffPixels": 113659,
+    "layoutChanges": {
+      "totalChanges": 30,
+      "changes": [
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "button:visible:nth(3)",
+          "label": "Buttons #4",
+          "details": "Element \"Buttons #4\" moved 935px (574,252) → (1136,999)",
+          "oldValue": {
+            "x": 574,
+            "y": 252
+          },
+          "newValue": {
+            "x": 1136,
+            "y": 999
+          }
+        },
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "button:visible:nth(4)",
+          "label": "Buttons #5",
+          "details": "Element \"Buttons #5\" moved 1338px (1185,447) → (1063,1779)",
+          "oldValue": {
+            "x": 1185,
+            "y": 447
+          },
+          "newValue": {
+            "x": 1063,
+            "y": 1779
+          }
+        },
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "button:visible:nth(5)",
+          "label": "Buttons #6",
+          "details": "Element \"Buttons #6\" moved 1379px (490,672) → (943,1974)",
+          "oldValue": {
+            "x": 490,
+            "y": 672
+          },
+          "newValue": {
+            "x": 943,
+            "y": 1974
+          }
+        },
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "button:visible:nth(6)",
+          "label": "Buttons #7",
+          "details": "Element \"Buttons #7\" moved 1368px (490,895) → (988,2169)",
+          "oldValue": {
+            "x": 490,
+            "y": 895
+          },
+          "newValue": {
+            "x": 988,
+            "y": 2169
+          }
+        },
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "button:visible:nth(7)",
+          "label": "Buttons #8",
+          "details": "Element \"Buttons #8\" moved 1472px (1056,1088) → (1110,2559)",
+          "oldValue": {
+            "x": 1056,
+            "y": 1088
+          },
+          "newValue": {
+            "x": 1110,
+            "y": 2559
+          }
+        },
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": "button:visible:nth(7)",
+          "label": "Buttons #8",
+          "details": "Element \"Buttons #8\" resized from 53×20 to 46×20",
+          "oldValue": {
+            "width": 53,
+            "height": 20
+          },
+          "newValue": {
+            "width": 46,
+            "height": 20
+          }
+        },
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "button:visible:nth(8)",
+          "label": "Buttons #9",
+          "details": "Element \"Buttons #9\" moved 1276px (1115,1478) → (1110,2754)",
+          "oldValue": {
+            "x": 1115,
+            "y": 1478
+          },
+          "newValue": {
+            "x": 1110,
+            "y": 2754
+          }
+        },
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": "button:visible:nth(8)",
+          "label": "Buttons #9",
+          "details": "Element \"Buttons #9\" resized from 54×20 to 46×20",
+          "oldValue": {
+            "width": 54,
+            "height": 20
+          },
+          "newValue": {
+            "width": 46,
+            "height": 20
+          }
+        },
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "button:visible:nth(9)",
+          "label": "Buttons #10",
+          "details": "Element \"Buttons #10\" moved 1673px (955,1673) → (1110,3339)",
+          "oldValue": {
+            "x": 955,
+            "y": 1673
+          },
+          "newValue": {
+            "x": 1110,
+            "y": 3339
+          }
+        },
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": "a:visible:nth(9)",
+          "label": "Links #10",
+          "details": "Element \"Links #10\" resized from 184×24 to 337×24",
+          "oldValue": {
+            "width": 184,
+            "height": 24
+          },
+          "newValue": {
+            "width": 337,
+            "height": 24
+          }
+        },
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "img:visible:nth(0)",
+          "label": "Images #1",
+          "details": "Element \"Images #1\" moved 33px (393,548) → (393,515)",
+          "oldValue": {
+            "x": 393,
+            "y": 548
+          },
+          "newValue": {
+            "x": 393,
+            "y": 515
+          }
+        },
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": "img:visible:nth(0)",
+          "label": "Images #1",
+          "details": "Element \"Images #1\" resized from 72×48 to 72×68",
+          "oldValue": {
+            "width": 72,
+            "height": 48
+          },
+          "newValue": {
+            "width": 72,
+            "height": 68
+          }
+        },
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "img:visible:nth(1)",
+          "label": "Images #2",
+          "details": "Element \"Images #2\" moved 61px (393,771) → (393,710)",
+          "oldValue": {
+            "x": 393,
+            "y": 771
+          },
+          "newValue": {
+            "x": 393,
+            "y": 710
+          }
+        },
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": "img:visible:nth(1)",
+          "label": "Images #2",
+          "details": "Element \"Images #2\" resized from 72×48 to 72×68",
+          "oldValue": {
+            "width": 72,
+            "height": 48
+          },
+          "newValue": {
+            "width": 72,
+            "height": 68
+          }
+        },
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "img:visible:nth(2)",
+          "label": "Images #3",
+          "details": "Element \"Images #3\" moved 106px (393,994) → (393,1100)",
+          "oldValue": {
+            "x": 393,
+            "y": 994
+          },
+          "newValue": {
+            "x": 393,
+            "y": 1100
+          }
+        },
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": "img:visible:nth(2)",
+          "label": "Images #3",
+          "details": "Element \"Images #3\" resized from 72×48 to 72×72",
+          "oldValue": {
+            "width": 72,
+            "height": 48
+          },
+          "newValue": {
+            "width": 72,
+            "height": 72
+          }
+        },
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "img:visible:nth(3)",
+          "label": "Images #4",
+          "details": "Element \"Images #4\" moved 301px (393,1189) → (393,1490)",
+          "oldValue": {
+            "x": 393,
+            "y": 1189
+          },
+          "newValue": {
+            "x": 393,
+            "y": 1490
+          }
+        },
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": "img:visible:nth(3)",
+          "label": "Images #4",
+          "details": "Element \"Images #4\" resized from 72×48 to 72×36",
+          "oldValue": {
+            "width": 72,
+            "height": 48
+          },
+          "newValue": {
+            "width": 72,
+            "height": 36
+          }
+        },
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "img:visible:nth(4)",
+          "label": "Images #5",
+          "details": "Element \"Images #5\" moved 301px (393,1384) → (393,1685)",
+          "oldValue": {
+            "x": 393,
+            "y": 1384
+          },
+          "newValue": {
+            "x": 393,
+            "y": 1685
+          }
+        },
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": "img:visible:nth(4)",
+          "label": "Images #5",
+          "details": "Element \"Images #5\" resized from 72×48 to 72×36",
+          "oldValue": {
+            "width": 72,
+            "height": 48
+          },
+          "newValue": {
+            "width": 72,
+            "height": 36
+          }
+        },
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "img:visible:nth(5)",
+          "label": "Images #6",
+          "details": "Element \"Images #6\" moved 301px (393,1579) → (393,1880)",
+          "oldValue": {
+            "x": 393,
+            "y": 1579
+          },
+          "newValue": {
+            "x": 393,
+            "y": 1880
+          }
+        },
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": "img:visible:nth(5)",
+          "label": "Images #6",
+          "details": "Element \"Images #6\" resized from 72×48 to 72×36",
+          "oldValue": {
+            "width": 72,
+            "height": 48
+          },
+          "newValue": {
+            "width": 72,
+            "height": 36
+          }
+        },
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "img:visible:nth(6)",
+          "label": "Images #7",
+          "details": "Element \"Images #7\" moved 301px (393,1774) → (393,2075)",
+          "oldValue": {
+            "x": 393,
+            "y": 1774
+          },
+          "newValue": {
+            "x": 393,
+            "y": 2075
+          }
+        },
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": "img:visible:nth(6)",
+          "label": "Images #7",
+          "details": "Element \"Images #7\" resized from 72×48 to 72×36",
+          "oldValue": {
+            "width": 72,
+            "height": 48
+          },
+          "newValue": {
+            "width": 72,
+            "height": 36
+          }
+        },
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "img:visible:nth(7)",
+          "label": "Images #8",
+          "details": "Element \"Images #8\" moved 301px (393,1969) → (393,2270)",
+          "oldValue": {
+            "x": 393,
+            "y": 1969
+          },
+          "newValue": {
+            "x": 393,
+            "y": 2270
+          }
+        },
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": "img:visible:nth(7)",
+          "label": "Images #8",
+          "details": "Element \"Images #8\" resized from 72×48 to 72×36",
+          "oldValue": {
+            "width": 72,
+            "height": 48
+          },
+          "newValue": {
+            "width": 72,
+            "height": 36
+          }
+        },
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "img:visible:nth(8)",
+          "label": "Images #9",
+          "details": "Element \"Images #9\" moved 273px (393,2192) → (393,2465)",
+          "oldValue": {
+            "x": 393,
+            "y": 2192
+          },
+          "newValue": {
+            "x": 393,
+            "y": 2465
+          }
+        },
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": "img:visible:nth(8)",
+          "label": "Images #9",
+          "details": "Element \"Images #9\" resized from 72×48 to 72×72",
+          "oldValue": {
+            "width": 72,
+            "height": 48
+          },
+          "newValue": {
+            "width": 72,
+            "height": 72
+          }
+        },
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "img:visible:nth(9)",
+          "label": "Images #10",
+          "details": "Element \"Images #10\" moved 273px (393,2387) → (393,2660)",
+          "oldValue": {
+            "x": 393,
+            "y": 2387
+          },
+          "newValue": {
+            "x": 393,
+            "y": 2660
+          }
+        },
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": "img:visible:nth(9)",
+          "label": "Images #10",
+          "details": "Element \"Images #10\" resized from 72×48 to 72×72",
+          "oldValue": {
+            "width": 72,
+            "height": 48
+          },
+          "newValue": {
+            "width": 72,
+            "height": 72
+          }
+        }
+      ],
+      "changesByType": {
+        "position": 17,
+        "size": 13,
+        "style": 0,
+        "missing": 0,
+        "new": 0,
+        "visibility": 0
+      },
+      "layoutScore": 58
+    },
+    "layoutOverlayPath": "screenshots/diffs/_draup_industry_demand-layout-overlay.png",
+    "totalPixels": 921600,
+    "imageWidth": 1280,
+    "imageHeight": 720
+  },
+  {
+    "url": "/draup/universe",
+    "viewName": "_draup_universe",
+    "product": "Sales",
+    "date": "2025-12-27",
+    "previousDate": "2025-12-23",
+    "status": "❌ Error",
+    "errors": [],
+    "previousPath": "screenshots/daily/2025-12-23/Sales/_draup_universe.png",
+    "todayPath": "screenshots/daily/2025-12-27/Sales/_draup_universe.png",
+    "todayLayoutPath": "screenshots/daily/2025-12-27/Sales/_draup_universe-layout.json",
+    "previousLayoutPath": "screenshots/daily/2025-12-23/Sales/_draup_universe-layout.json",
+    "diffPath": "screenshots/diffs/_draup_universe-diff.png",
+    "diffPixels": 138720,
+    "layoutChanges": {
+      "totalChanges": 0,
+      "changes": [],
+      "changesByType": {
+        "position": 0,
+        "size": 0,
+        "style": 0,
+        "missing": 0,
+        "new": 0,
+        "visibility": 0
+      },
+      "layoutScore": 100
+    },
+    "layoutOverlayPath": null,
+    "totalPixels": 921600,
+    "imageWidth": 1280,
+    "imageHeight": 720
+  },
+  {
+    "url": "/draup/mysignals",
+    "viewName": "_draup_mysignals",
+    "product": "Sales",
+    "date": "2025-12-27",
+    "previousDate": "2025-12-23",
+    "status": "✅ OK",
+    "errors": [],
+    "previousPath": "screenshots/daily/2025-12-23/Sales/_draup_mysignals.png",
+    "todayPath": "screenshots/daily/2025-12-27/Sales/_draup_mysignals.png",
+    "todayLayoutPath": "screenshots/daily/2025-12-27/Sales/_draup_mysignals-layout.json",
+    "previousLayoutPath": "screenshots/daily/2025-12-23/Sales/_draup_mysignals-layout.json",
+    "diffPath": "screenshots/diffs/_draup_mysignals-diff.png",
+    "diffPixels": 24,
+    "layoutChanges": {
+      "totalChanges": 0,
+      "changes": [],
+      "changesByType": {
+        "position": 0,
+        "size": 0,
+        "style": 0,
+        "missing": 0,
+        "new": 0,
+        "visibility": 0
+      },
+      "layoutScore": 100
+    },
+    "layoutOverlayPath": null,
+    "totalPixels": 921600,
+    "imageWidth": 1280,
+    "imageHeight": 720
+  },
+  {
+    "url": "/draup/myreports",
+    "viewName": "_draup_myreports",
+    "product": "Sales",
+    "date": "2025-12-27",
+    "previousDate": "2025-12-23",
+    "status": "❌ Error",
+    "errors": [],
+    "previousPath": "screenshots/daily/2025-12-23/Sales/_draup_myreports.png",
+    "todayPath": "screenshots/daily/2025-12-27/Sales/_draup_myreports.png",
+    "todayLayoutPath": "screenshots/daily/2025-12-27/Sales/_draup_myreports-layout.json",
+    "previousLayoutPath": "screenshots/daily/2025-12-23/Sales/_draup_myreports-layout.json",
+    "diffPath": "screenshots/diffs/_draup_myreports-diff.png",
+    "diffPixels": 148644,
+    "layoutChanges": {
+      "totalChanges": 19,
+      "changes": [
+        {
+          "type": "position",
+          "severity": "moderate",
+          "selector": "main",
+          "label": "Main Content",
+          "details": "Element \"Main Content\" moved 16px (0,52) → (0,68)",
+          "oldValue": {
+            "x": 0,
+            "y": 52
+          },
+          "newValue": {
+            "x": 0,
+            "y": 68
+          }
+        },
+        {
+          "type": "size",
+          "severity": "moderate",
+          "selector": "main",
+          "label": "Main Content",
+          "details": "Element \"Main Content\" resized from 1280×568 to 1280×524",
+          "oldValue": {
+            "width": 1280,
+            "height": 568
+          },
+          "newValue": {
+            "width": 1280,
+            "height": 524
+          }
+        },
+        {
+          "type": "missing",
+          "severity": "major",
+          "selector": ".content",
+          "label": "Content Area",
+          "details": "Element \"Content Area\" no longer exists",
+          "oldValue": {
+            "x": 56,
+            "y": 68,
+            "width": 1208,
+            "height": 24
+          },
+          "newValue": null
+        },
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "a:visible:nth(4)",
+          "label": "Links #5",
+          "details": "Element \"Links #5\" moved 667px (392,68) → (1059,68)",
+          "oldValue": {
+            "x": 392,
+            "y": 68
+          },
+          "newValue": {
+            "x": 1059,
+            "y": 68
+          }
+        },
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": "a:visible:nth(4)",
+          "label": "Links #5",
+          "details": "Element \"Links #5\" resized from 75×24 to 93×36",
+          "oldValue": {
+            "width": 75,
+            "height": 24
+          },
+          "newValue": {
+            "width": 93,
+            "height": 36
+          }
+        },
+        {
+          "type": "style",
+          "severity": "minor",
+          "selector": "a:visible:nth(4)",
+          "label": "Links #5",
+          "details": "Element \"Links #5\" styles changed: font-size: 14px → 16px, color: rgb(0, 116, 197) → rgb(255, 255, 255), background: rgba(0, 0, 0, 0) → rgb(0, 116, 217)",
+          "oldValue": {
+            "fontSize": "14px",
+            "color": "rgb(0, 116, 197)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "newValue": {
+            "fontSize": "16px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(0, 116, 217)"
+          }
+        },
+        {
+          "type": "missing",
+          "severity": "major",
+          "selector": "a:visible:nth(5)",
+          "label": "Links #6",
+          "details": "Element \"Links #6\" no longer exists",
+          "oldValue": {
+            "x": 847,
+            "y": 124,
+            "width": 34,
+            "height": 36
+          },
+          "newValue": null
+        },
+        {
+          "type": "missing",
+          "severity": "major",
+          "selector": "a:visible:nth(6)",
+          "label": "Links #7",
+          "details": "Element \"Links #7\" no longer exists",
+          "oldValue": {
+            "x": 889,
+            "y": 124,
+            "width": 126,
+            "height": 36
+          },
+          "newValue": null
+        },
+        {
+          "type": "missing",
+          "severity": "major",
+          "selector": "a:visible:nth(7)",
+          "label": "Links #8",
+          "details": "Element \"Links #8\" no longer exists",
+          "oldValue": {
+            "x": 1023,
+            "y": 124,
+            "width": 93,
+            "height": 36
+          },
+          "newValue": null
+        },
+        {
+          "type": "missing",
+          "severity": "major",
+          "selector": "a:visible:nth(8)",
+          "label": "Links #9",
+          "details": "Element \"Links #9\" no longer exists",
+          "oldValue": {
+            "x": 435,
+            "y": 437,
+            "width": 426,
+            "height": 22
+          },
+          "newValue": null
+        },
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "img:visible:nth(0)",
+          "label": "Images #1",
+          "details": "Element \"Images #1\" moved 176px (907,138) → (1073,79)",
+          "oldValue": {
+            "x": 907,
+            "y": 138
+          },
+          "newValue": {
+            "x": 1073,
+            "y": 79
+          }
+        },
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": "img:visible:nth(0)",
+          "label": "Images #1",
+          "details": "Element \"Images #1\" resized from 10×12 to 14×18",
+          "oldValue": {
+            "width": 10,
+            "height": 12
+          },
+          "newValue": {
+            "width": 14,
+            "height": 18
+          }
+        },
+        {
+          "type": "style",
+          "severity": "minor",
+          "selector": "img:visible:nth(0)",
+          "label": "Images #1",
+          "details": "Element \"Images #1\" styles changed: color: rgb(45, 55, 64) → rgb(255, 255, 255)",
+          "oldValue": {
+            "fontSize": "16px",
+            "color": "rgb(45, 55, 64)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "newValue": {
+            "fontSize": "16px",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "type": "position",
+          "severity": "major",
+          "selector": "img:visible:nth(1)",
+          "label": "Images #2",
+          "details": "Element \"Images #2\" moved 893px (1037,135) → (144,138)",
+          "oldValue": {
+            "x": 1037,
+            "y": 135
+          },
+          "newValue": {
+            "x": 144,
+            "y": 138
+          }
+        },
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": "img:visible:nth(1)",
+          "label": "Images #2",
+          "details": "Element \"Images #2\" resized from 14×18 to 34×48",
+          "oldValue": {
+            "width": 14,
+            "height": 18
+          },
+          "newValue": {
+            "width": 34,
+            "height": 48
+          }
+        },
+        {
+          "type": "style",
+          "severity": "minor",
+          "selector": "img:visible:nth(1)",
+          "label": "Images #2",
+          "details": "Element \"Images #2\" styles changed: color: rgb(45, 55, 64) → rgb(33, 37, 41)",
+          "oldValue": {
+            "fontSize": "16px",
+            "color": "rgb(45, 55, 64)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "newValue": {
+            "fontSize": "16px",
+            "color": "rgb(33, 37, 41)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          }
+        },
+        {
+          "type": "position",
+          "severity": "moderate",
+          "selector": "img:visible:nth(2)",
+          "label": "Images #3",
+          "details": "Element \"Images #3\" moved 12px (622,329) → (622,341)",
+          "oldValue": {
+            "x": 622,
+            "y": 329
+          },
+          "newValue": {
+            "x": 622,
+            "y": 341
+          }
+        },
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": "img:visible:nth(2)",
+          "label": "Images #3",
+          "details": "Element \"Images #3\" resized from 60×69 to 60×60",
+          "oldValue": {
+            "width": 60,
+            "height": 69
+          },
+          "newValue": {
+            "width": 60,
+            "height": 60
+          }
+        },
+        {
+          "type": "new",
+          "severity": "moderate",
+          "selector": "button:visible",
+          "label": "Buttons",
+          "details": "New element \"Buttons\" appeared at (1079,143)",
+          "oldValue": null,
+          "newValue": {
+            "x": 1079,
+            "y": 143,
+            "width": 57,
+            "height": 38
+          }
+        }
+      ],
+      "changesByType": {
+        "position": 5,
+        "size": 5,
+        "style": 3,
+        "missing": 5,
+        "new": 1,
+        "visibility": 0
+      },
+      "layoutScore": 13
+    },
+    "layoutOverlayPath": "screenshots/diffs/_draup_myreports-layout-overlay.png",
+    "totalPixels": 921600,
+    "imageWidth": 1280,
+    "imageHeight": 720
+  },
+  {
+    "url": "/draup/braindesk",
+    "viewName": "_draup_braindesk",
+    "product": "Sales",
+    "date": "2025-12-27",
+    "previousDate": "2025-12-23",
+    "status": "❌ Error",
+    "errors": [],
+    "previousPath": "screenshots/daily/2025-12-23/Sales/_draup_braindesk.png",
+    "todayPath": "screenshots/daily/2025-12-27/Sales/_draup_braindesk.png",
+    "todayLayoutPath": "screenshots/daily/2025-12-27/Sales/_draup_braindesk-layout.json",
+    "previousLayoutPath": "screenshots/daily/2025-12-23/Sales/_draup_braindesk-layout.json",
+    "diffPath": "screenshots/diffs/_draup_braindesk-diff.png",
+    "diffPixels": 23549,
+    "layoutChanges": {
+      "totalChanges": 8,
+      "changes": [
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": ".content:nth(4)",
+          "label": "Content Area #5",
+          "details": "Element \"Content Area #5\" resized from 339×112 to 339×88",
+          "oldValue": {
+            "width": 339,
+            "height": 112
+          },
+          "newValue": {
+            "width": 339,
+            "height": 88
+          }
+        },
+        {
+          "type": "position",
+          "severity": "moderate",
+          "selector": ".content:nth(5)",
+          "label": "Content Area #6",
+          "details": "Element \"Content Area #6\" moved 8px (475,1096) → (475,1088)",
+          "oldValue": {
+            "x": 475,
+            "y": 1096
+          },
+          "newValue": {
+            "x": 475,
+            "y": 1088
+          }
+        },
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": ".content:nth(6)",
+          "label": "Content Area #7",
+          "details": "Element \"Content Area #7\" resized from 339×88 to 339×112",
+          "oldValue": {
+            "width": 339,
+            "height": 88
+          },
+          "newValue": {
+            "width": 339,
+            "height": 112
+          }
+        },
+        {
+          "type": "position",
+          "severity": "moderate",
+          "selector": ".content:nth(7)",
+          "label": "Content Area #8",
+          "details": "Element \"Content Area #8\" moved 8px (861,1096) → (861,1088)",
+          "oldValue": {
+            "x": 861,
+            "y": 1096
+          },
+          "newValue": {
+            "x": 861,
+            "y": 1088
+          }
+        },
+        {
+          "type": "size",
+          "severity": "major",
+          "selector": ".content:nth(7)",
+          "label": "Content Area #8",
+          "details": "Element \"Content Area #8\" resized from 339×88 to 339×112",
+          "oldValue": {
+            "width": 339,
+            "height": 88
+          },
+          "newValue": {
+            "width": 339,
+            "height": 112
+          }
+        },
+        {
+          "type": "size",
+          "severity": "moderate",
+          "selector": "a:visible:nth(8)",
+          "label": "Links #9",
+          "details": "Element \"Links #9\" resized from 371×176 to 371×168",
+          "oldValue": {
+            "width": 371,
+            "height": 176
+          },
+          "newValue": {
+            "width": 371,
+            "height": 168
+          }
+        },
+        {
+          "type": "position",
+          "severity": "moderate",
+          "selector": "a:visible:nth(9)",
+          "label": "Links #10",
+          "details": "Element \"Links #10\" moved 8px (459,1080) → (459,1072)",
+          "oldValue": {
+            "x": 459,
+            "y": 1080
+          },
+          "newValue": {
+            "x": 459,
+            "y": 1072
+          }
+        },
+        {
+          "type": "size",
+          "severity": "moderate",
+          "selector": "a:visible:nth(9)",
+          "label": "Links #10",
+          "details": "Element \"Links #10\" resized from 371×176 to 371×168",
+          "oldValue": {
+            "width": 371,
+            "height": 176
+          },
+          "newValue": {
+            "width": 371,
+            "height": 168
+          }
+        }
+      ],
+      "changesByType": {
+        "position": 3,
+        "size": 5,
+        "style": 0,
+        "missing": 0,
+        "new": 0,
+        "visibility": 0
+      },
+      "layoutScore": 83
+    },
+    "layoutOverlayPath": "screenshots/diffs/_draup_braindesk-layout-overlay.png",
+    "totalPixels": 921600,
+    "imageWidth": 1280,
+    "imageHeight": 720
+  },
+  {
+    "url": "/draup/projects",
+    "viewName": "_draup_projects",
+    "product": "Sales",
+    "date": "2025-12-27",
+    "previousDate": "2025-12-23",
+    "status": "✅ OK",
+    "errors": [],
+    "previousPath": "screenshots/daily/2025-12-23/Sales/_draup_projects.png",
+    "todayPath": "screenshots/daily/2025-12-27/Sales/_draup_projects.png",
+    "todayLayoutPath": "screenshots/daily/2025-12-27/Sales/_draup_projects-layout.json",
+    "previousLayoutPath": "screenshots/daily/2025-12-23/Sales/_draup_projects-layout.json",
+    "diffPath": "screenshots/diffs/_draup_projects-diff.png",
+    "diffPixels": 480,
+    "layoutChanges": {
+      "totalChanges": 0,
+      "changes": [],
+      "changesByType": {
+        "position": 0,
+        "size": 0,
+        "style": 0,
+        "missing": 0,
+        "new": 0,
+        "visibility": 0
+      },
+      "layoutScore": 100
+    },
+    "layoutOverlayPath": null,
+    "totalPixels": 921600,
+    "imageWidth": 1280,
+    "imageHeight": 720
+  },
+  {
+    "url": "/draup/buyers/search",
+    "viewName": "_draup_buyers_search",
+    "product": "Sales",
+    "date": "2025-12-27",
+    "previousDate": "2025-12-23",
+    "status": "❌ Error",
+    "errors": [
+      "Console error: Failed to load resource: the server responded with a status of 404 ()"
+    ],
+    "previousPath": "screenshots/daily/2025-12-23/Sales/_draup_buyers_search.png",
+    "todayPath": "screenshots/daily/2025-12-27/Sales/_draup_buyers_search.png",
+    "todayLayoutPath": "screenshots/daily/2025-12-27/Sales/_draup_buyers_search-layout.json",
+    "previousLayoutPath": "screenshots/daily/2025-12-23/Sales/_draup_buyers_search-layout.json",
+    "diffPath": "screenshots/diffs/_draup_buyers_search-diff.png",
+    "diffPixels": 0,
+    "layoutChanges": {
+      "totalChanges": 0,
+      "changes": [],
+      "changesByType": {
+        "position": 0,
+        "size": 0,
+        "style": 0,
+        "missing": 0,
+        "new": 0,
+        "visibility": 0
+      },
+      "layoutScore": 100
+    },
+    "layoutOverlayPath": null,
+    "totalPixels": 921600,
+    "imageWidth": 1280,
+    "imageHeight": 720
+  },
+  {
+    "url": "/draup/mainprojects",
+    "viewName": "_draup_mainprojects",
+    "product": "Sales",
+    "date": "2025-12-27",
+    "previousDate": "2025-12-23",
+    "status": "✅ OK",
+    "errors": [],
+    "previousPath": "screenshots/daily/2025-12-23/Sales/_draup_mainprojects.png",
+    "todayPath": "screenshots/daily/2025-12-27/Sales/_draup_mainprojects.png",
+    "todayLayoutPath": "screenshots/daily/2025-12-27/Sales/_draup_mainprojects-layout.json",
+    "previousLayoutPath": "screenshots/daily/2025-12-23/Sales/_draup_mainprojects-layout.json",
+    "diffPath": "screenshots/diffs/_draup_mainprojects-diff.png",
+    "diffPixels": 480,
+    "layoutChanges": {
+      "totalChanges": 0,
+      "changes": [],
+      "changesByType": {
+        "position": 0,
+        "size": 0,
+        "style": 0,
+        "missing": 0,
+        "new": 0,
+        "visibility": 0
+      },
+      "layoutScore": 100
+    },
+    "layoutOverlayPath": null,
+    "totalPixels": 921600,
+    "imageWidth": 1280,
+    "imageHeight": 720
+  }
+]
